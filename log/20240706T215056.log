@@ -1,0 +1,121 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid h=1000.txt
+->SquareCuboid h=450.txt
+->SquareCuboid h=500.txt
+->SquareCuboid h=600.txt
+->SquareCuboid h=650.txt
+->SquareCuboid h=750.txt
+->SquareCuboid h=800.txt
+->SquareCuboid h=850.txt
+->SquareCuboid h=950.txt
+->SquareCuboid resample_p=260.txt
+->SquareCuboid resample_p=280.txt
+->SquareCuboid resample_p=300.txt
+->SquareCuboid resample_p=320.txt
+->SquareCuboid resample_p=340.txt
+->SquareCuboid resample_p=360.txt
+->SquareCuboid resample_p=380.txt
+->SquareCuboid resample_p=400.txt
+->SquareCuboid resample_p=420.txt
+->SquareCuboid resample_p=460.txt
+->SquareCuboidh=550.txt
+->SquareCuboidresample_p=200.txt
+->SquareCuboidresample_p=220.txt
+->SquareCuboidresample_p=240.txt
+->SquareCuboidresample_p=440.txt
+->SquareCuboidresample_p=480.txt
+->SquareCuboidresample_p=500.txt
+->SquareCuboidresample_p=520.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=1000.txt
+[matlab][INFO] 第1个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=450.txt
+[matlab][INFO] 第2个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=500.txt
+[matlab][INFO] 第3个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=600.txt
+[matlab][INFO] 第4个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=650.txt
+[matlab][INFO] 第5个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=750.txt
+[matlab][INFO] 第6个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=800.txt
+[matlab][INFO] 第7个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=850.txt
+[matlab][INFO] 第8个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=950.txt
+[matlab][INFO] 第9个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=260.txt
+[matlab][INFO] 第10个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=280.txt
+[matlab][INFO] 第11个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=300.txt
+[matlab][INFO] 第12个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=320.txt
+[matlab][INFO] 第13个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=340.txt
+[matlab][INFO] 第14个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=360.txt
+[matlab][INFO] 第15个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=380.txt
+[matlab][INFO] 第16个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=400.txt
+[matlab][INFO] 第17个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=420.txt
+[matlab][INFO] 第18个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=460.txt
+[matlab][INFO] 第19个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidh=550.txt
+[matlab][INFO] 第20个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidresample_p=200.txt
+[matlab][INFO] 第21个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidresample_p=220.txt
+[matlab][INFO] 第22个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidresample_p=240.txt
+[matlab][INFO] 第23个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidresample_p=440.txt
+[matlab][INFO] 第24个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidresample_p=480.txt
+[matlab][INFO] 第25个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidresample_p=500.txt
+[matlab][INFO] 第26个文件, 共27个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidresample_p=520.txt
+[matlab][INFO] 第27个文件, 共27个文件
+[matlab][INFO] 文件扫描完成
+{无法识别的字段名称 "autoSelect"。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser>filePropertiesOK_Callback', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\filePropertiesBrowser.m', 176)" style="font-weight:bold">filePropertiesBrowser>filePropertiesOK_Callback</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\filePropertiesBrowser.m',176,0)">第 176 行</a>)
+if get(handles.autoSelect, 'value')
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\filePropertiesBrowser.m', 42)" style="font-weight:bold">filePropertiesBrowser</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\filePropertiesBrowser.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser(''filePropertiesOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser('filePropertiesOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+

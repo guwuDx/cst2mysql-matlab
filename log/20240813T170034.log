@@ -1,0 +1,18 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '0'
+                   defaultThickness: '500'
+                       ignoreETheta: '1'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...

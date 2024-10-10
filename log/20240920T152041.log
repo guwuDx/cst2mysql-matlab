@@ -1,0 +1,158 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'mcb_test'
+                               User: 'root'
+                                Pwd: 'Metasurface331.'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '0'
+                   defaultThickness: '500'
+                       ignoreETheta: '1'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: D:\Users\TxBuffer\cstfiles
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->h=400.txt
+->h=450.txt
+->h=500.txt
+->h=550.txt
+->h=600.txt
+->h=650.txt
+->h=700.txt
+->h=750.txt
+->h=800.txt
+->h=850.txt
+->h=900.txt
+->h=950.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: h=400.txt
+[matlab][INFO] No.1/12
+[matlab][INFO] Reading and Analysing: h=450.txt
+[matlab][INFO] No.2/12
+[matlab][INFO] Reading and Analysing: h=500.txt
+[matlab][INFO] No.3/12
+[matlab][INFO] Reading and Analysing: h=550.txt
+[matlab][INFO] No.4/12
+[matlab][INFO] Reading and Analysing: h=600.txt
+[matlab][INFO] No.5/12
+[matlab][INFO] Reading and Analysing: h=650.txt
+[matlab][INFO] No.6/12
+[matlab][INFO] Reading and Analysing: h=700.txt
+[matlab][INFO] No.7/12
+[matlab][INFO] Reading and Analysing: h=750.txt
+[matlab][INFO] No.8/12
+[matlab][INFO] Reading and Analysing: h=800.txt
+[matlab][INFO] No.9/12
+[matlab][INFO] Reading and Analysing: h=850.txt
+[matlab][INFO] No.10/12
+[matlab][INFO] Reading and Analysing: h=900.txt
+[matlab][INFO] No.11/12
+[matlab][INFO] Reading and Analysing: h=950.txt
+[matlab][INFO] No.12/12
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file h=400.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=450.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=500.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=550.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=600.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=650.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=700.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=750.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=800.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=850.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=900.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=950.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: h=400.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: h=400.txt...
+[matlab][INFO] Extracting parameter values for file: h=400.txt
+[matlab][INFO] Scanning S-parameter ID for file h=400.txt
+[matlab][INFO] Calculating dispersion data for file h=400.txt
+[matlab][INFO] Connecting to database...
+[matlab][INFO] Database connected successfully
+[matlab][INFO] Writing generic Parameters to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table genericunitsprmt, the details of the id are as follows:
+!! h=400.txt-genericunitsprmt-76-75-74-73-72-71-70-69-68-67-66-65-64-63-62-
+[matlab][INFO] Matching foreign keys for ParamArr...
+[matlab][INFO] Writing ParamArr to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table squarecuboidunitsprmt, the details of the id are as follows:
+!! h=400.txt-squarecuboidunitsprmt-2200-2199-2198-2197-2196-2195-2194-2193-2192-2191-2190-2189-2188-2187-2186-2185-2184-2183-2182-2181-2180-2179-2178-2177-2176-2175-2174-2173-2172-2171-2170-2169-2168-2167-2166-2165-2164-2163-2162-2161-2160-2159-2158-2157-2156-2155-2154-2153-2152-2151-2150-2149-2148-2147-2146-2145-2144-2143-2142-2141-2140-2139-2138-2137-2136-2135-2134-2133-2132-2131-2130-2129-2128-2127-2126-2125-2124-2123-2122-2121-2120-2119-2118-2117-2116-2115-2114-2113-2112-2111-2110-2109-2108-2107-2106-2105-2104-2103-2102-2101-2100-2099-2098-2097-2096-2095-2094-2093-2092-2091-2090-2089-2088-2087-2086-2085-2084-2083-2082-2081-2080-2079-2078-2077-2076-2075-2074-2073-2072-2071-2070-2069-2068-2067-2066-2065-2064-2063-2062-2061-2060-2059-2058-2057-2056-2055-2054-2053-2052-2051-2050-2049-2048-2047-2046-2045-2044-2043-2042-2041-2040-2039-2038-2037-2036-2035-2034-2033-2032-2031-2030-2029-2028-2027-2026-2025-2024-2023-2022-2021-2020-2019-2018-2017-2016-2015-2014-2013-2012-2011-2010-2009-2008-2007-2006-2005-2004-2003-2002-2001-2000-1999-1998-1997-1996-1995-1994-1993-1992-1991-1990-1989-1988-1987-1986-1985-1984-1983-1982-1981-1980-1979-1978-1977-1976-1975-1974-1973-1972-1971-1970-1969-1968-1967-1966-1965-1964-1963-1962-1961-1960-1959-1958-1957-1956-1955-1954-1953-1952-1951-1950-1949-1948-1947-1946-1945-1944-1943-1942-1941-1940-1939-1938-1937-1936-1935-1934-1933-1932-1931-1930-1929-1928-1927-1926-1925-1924-1923-1922-1921-1920-1919-1918-1917-1916-1915-1914-1913-1912-1911-1910-1909-1908-1907-1906-1905-1904-1903-1902-1901-1900-1899-1898-1897-1896-1895-1894-1893-1892-1891-1890-1889-1888-1887-1886-1885-1884-1883-1882-1881-1880-1879-1878-1877-1876-1875-1874-1873-1872-1871-1870-1869-1868-1867-1866-1865-1864-1863-1862-1861-1860-1859-1858-1857-1856-1855-1854-1853-1852-1851-1850-1849-1848-1847-1846-1845-1844-1843-1842-1841-1840-1839-1838-1837-1836-1835-1834-1833-1832-1831-1830-1829-1828-1827-1826-1825-1824-1823-1822-1821-1820-1819-1818-1817-1816-1815-1814-1813-1812-1811-1810-1809-1808-1807-1806-1805-1804-1803-1802-1801-1800-1799-1798-1797-1796-1795-1794-1793-1792-1791-1790-1789-1788-1787-1786-1785-1784-1783-1782-1781-1780-1779-1778-1777-1776-1775-1774-1773-1772-1771-1770-1769-1768-1767-1766-1765-1764-1763-1762-1761-1760-1759-1758-1757-1756-1755-1754-1753-1752-1751-1750-1749-1748-1747-1746-1745-1744-1743-1742-1741-1740-1739-1738-1737-1736-1735-1734-1733-1732-1731-1730-1729-1728-1727-1726-1725-1724-1723-1722-1721-1720-1719-1718-1717-1716-1715-1714-1713-1712-1711-1710-1709-1708-1707-1706-1705-1704-1703-1702-1701-1700-1699-1698-1697-1696-1695-1694-1693-1692-1691-1690-1689-1688-1687-1686-1685-1684-1683-1682-1681-1680-1679-1678-1677-1676-1675-1674-1673-1672-1671-1670-1669-1668-1667-1666-1665-1664-1663-1662-1661-1660-1659-1658-1657-1656-1655-
+[matlab][INFO] Matching foreign keys for DataArr(NIR)...
+[matlab][INFO] Writing DataArr to database, this operation may take some time...
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('database.odbc.connection/sqlwrite', 'D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m', 256)" style="font-weight:bold">database.odbc.connection/sqlwrite</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m',256,0)">第 256 行</a>)
+ODBC Error: ODBC Driver Error: .
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dataImport', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m', 330)" style="font-weight:bold">dataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',330,0)">第 330 行</a>)
+        sqlwrite(conn, dbTable, DataArr_NIR);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser>filePropertiesOK_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 304)" style="font-weight:bold">filePropertiesBrowser>filePropertiesOK_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',304,0)">第 304 行</a>)
+    handles = dataImport(handles, fileInfo);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 42)" style="font-weight:bold">filePropertiesBrowser</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser(''filePropertiesOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser('filePropertiesOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+cst2mysql_v2

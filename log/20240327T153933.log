@@ -1,0 +1,37 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V1.0\Src\importGUI_v1.m',629,1)">629 </a>    cd(rootPath);
+if system_dependent('IsDebugMode')==1, dbquit; end
+com.mathworks.jmi.MatlabException: DebugQuitException
+	at com.mathworks.jmi.NativeMatlab.SendMatlabMessage(Native Method)
+	at com.mathworks.jmi.NativeMatlab.sendMatlabMessage(NativeMatlab.java:273)
+	at com.mathworks.jmi.MatlabLooper.sendMatlabMessage(MatlabLooper.java:120)
+	at com.mathworks.jmi.Matlab.mtFevalConsoleOutput(Matlab.java:1835)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:195)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:172)
+	at com.mathworks.toolbox.matlab.guide.utils.LayoutWorker.runOnMatlabThread(LayoutWorker.java:51)
+	at com.mathworks.jmi.MatlabWorker$2.run(MatlabWorker.java:79)
+DataImport
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+无法将当前文件夹更改为 'C:\Users\pc\Desktop\cst2mysql_V1.0\config\log' (名称不存在或不是文件夹)。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DataImport', 'C:\Users\pc\Desktop\DataImport V0.3.0\DataImport.m', 28)" style="font-weight:bold">DataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V0.3.0\DataImport.m',28,0)">第 28 行</a>)
+cd('log');
+} 
+DataImport
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+无法将当前文件夹更改为 'C:\Users\pc\Desktop\cst2mysql_V1.0\config\log' (名称不存在或不是文件夹)。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DataImport', 'C:\Users\pc\Desktop\DataImport V0.3.0\DataImport.m', 28)" style="font-weight:bold">DataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V0.3.0\DataImport.m',28,0)">第 28 行</a>)
+cd('log');
+} 
+DataImport

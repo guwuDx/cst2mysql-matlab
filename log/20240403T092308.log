@@ -1,0 +1,130 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid h=1000.txt
+->SquareCuboid h=450.txt
+->SquareCuboid h=500.txt
+->SquareCuboid h=700-non-standard.txt
+->SquareCuboid h=850.txt
+->SquareCuboid h=950.txt
+->SquareCuboid resample_p=460.txt
+->SquareCuboidawd mnjfy akjnwd h=400.txt
+->h=550.txt
+->resample_p=200.txt
+->resample_p=220.txt
+->resample_p=240.txt
+->resample_p=260.txt
+->resample_p=280.txt
+->resample_p=300.txt
+->resample_p=320.txt
+->resample_p=340.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=1000.txt
+[matlab][INFO] 第1个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=450.txt
+[matlab][INFO] 第2个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=500.txt
+[matlab][INFO] 第3个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=700-non-standard.txt
+[matlab][INFO] 第4个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=850.txt
+[matlab][INFO] 第5个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=950.txt
+[matlab][INFO] 第6个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid resample_p=460.txt
+[matlab][INFO] 第7个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidawd mnjfy akjnwd h=400.txt
+[matlab][INFO] 第8个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: h=550.txt
+[matlab][INFO] 第9个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=200.txt
+[matlab][INFO] 第10个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=220.txt
+[matlab][INFO] 第11个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=240.txt
+[matlab][INFO] 第12个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=260.txt
+[matlab][INFO] 第13个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=280.txt
+[matlab][INFO] 第14个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=300.txt
+[matlab][INFO] 第15个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=320.txt
+[matlab][INFO] 第16个文件, 共17个文件
+[matlab][INFO] 正在读取分析文件: resample_p=340.txt
+[matlab][INFO] 第17个文件, 共17个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V1.0\Src\importGUI_v1.m',335,1)">335 </a>set(handles.paramBrowseBox,'visible','off');
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 正在获取文件: SquareCuboid h=1000.txt 的所有参数行和数据行...
+[matlab][INFO] 正在提取文件: SquareCuboid h=1000.txt 的参数值...
+[matlab][INFO] 正在计算文件: SquareCuboid h=1000.txt 的色散数据...
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 数据库连接成功
+[sql][INFO][CRUCIAL] 表genericunitsprmt的起始ID为135, 录入长度为540, 其原文件为SquareCuboid h=1000.txt
+!! genericunitsprmt-135-540-SquareCuboid h=1000.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsprmt的起始ID为7690, 录入长度为540, 其原文件为SquareCuboid h=1000.txt
+!! squarecuboidunitsprmt-7690-540-SquareCuboid h=1000.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsfreqresp_nir的起始ID为437257, 录入长度为540540, 其原文件为SquareCuboid h=1000.txt
+!! squarecuboidunitsfreqresp_nir-437257-540540-SquareCuboid h=1000.txt
+[matlab][INFO] 正在将数据写入中间文件...
+[matlab][INFO] 正在操作genericParam表...
+[matlab][INFO] 正在操作ParamArr表...
+[matlab][INFO] 正在操作DataArr各表...
+[matlab][INFO] 该操作可能需要较长时间, 请耐心等待...
+[matlab][INFO] 未检测到中红外MIR数据, 跳过
+[matlab][INFO] 未检测到远红外FIR数据, 跳过
+[matlab][INFO] 正在获取文件: SquareCuboid h=450.txt 的所有参数行和数据行...
+[matlab][INFO] 正在提取文件: SquareCuboid h=450.txt 的参数值...
+[matlab][INFO] 正在计算文件: SquareCuboid h=450.txt 的色散数据...
+[sql][INFO][CRUCIAL] 表genericunitsprmt的起始ID为150, 录入长度为546, 其原文件为SquareCuboid h=450.txt
+!! genericunitsprmt-150-546-SquareCuboid h=450.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsprmt的起始ID为8713, 录入长度为546, 其原文件为SquareCuboid h=450.txt
+!! squarecuboidunitsprmt-8713-546-SquareCuboid h=450.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsfreqresp_nir的起始ID为502792, 录入长度为546546, 其原文件为SquareCuboid h=450.txt
+!! squarecuboidunitsfreqresp_nir-502792-546546-SquareCuboid h=450.txt
+[matlab][INFO] 正在将数据写入中间文件...
+[matlab][INFO] 正在操作genericParam表...
+[matlab][INFO] 正在操作ParamArr表...
+[matlab][INFO] 正在操作DataArr各表...
+[matlab][INFO] 该操作可能需要较长时间, 请耐心等待...
+[matlab][INFO] 未检测到中红外MIR数据, 跳过
+[matlab][INFO] 未检测到远红外FIR数据, 跳过
+[matlab][INFO] 正在获取文件: SquareCuboid h=500.txt 的所有参数行和数据行...
+[matlab][INFO] 正在提取文件: SquareCuboid h=500.txt 的参数值...
+[matlab][INFO] 正在计算文件: SquareCuboid h=500.txt 的色散数据...
+[sql][INFO][CRUCIAL] 表genericunitsprmt的起始ID为165, 录入长度为546, 其原文件为SquareCuboid h=500.txt
+!! genericunitsprmt-165-546-SquareCuboid h=500.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsprmt的起始ID为9742, 录入长度为546, 其原文件为SquareCuboid h=500.txt
+!! squarecuboidunitsprmt-9742-546-SquareCuboid h=500.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsfreqresp_nir的起始ID为574333, 录入长度为546546, 其原文件为SquareCuboid h=500.txt
+!! squarecuboidunitsfreqresp_nir-574333-546546-SquareCuboid h=500.txt
+[matlab][INFO] 正在将数据写入中间文件...
+[matlab][INFO] 正在操作genericParam表...
+[matlab][INFO] 正在操作ParamArr表...
+[matlab][INFO] 正在操作DataArr各表...
+[matlab][INFO] 该操作可能需要较长时间, 请耐心等待...
+函数 connection.exec 末尾。
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+[matlab][INFO] 未检测到中红外MIR数据, 跳过
+[matlab][INFO] 未检测到远红外FIR数据, 跳过
+[matlab][INFO] 正在获取文件: SquareCuboid h=700-non-standard.txt 的所有参数行和数据行...

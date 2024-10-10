@@ -1,0 +1,31 @@
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('setdbprefs', 'D:\design\MATLAB_version2021\toolbox\database\database\setdbprefs.m', 87)" style="font-weight:bold">setdbprefs</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\database\database\setdbprefs.m',87,0)">第 87 行</a>)
+Invalid com.mathworks.toolbox.database.databasePrefs property: ' Debug '.
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>importInit', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 221)" style="font-weight:bold">cst2mysql_v2>importInit</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',221,0)">第 221 行</a>)
+setdbprefs('Debug', 'on');
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>cst2mysql_v2_OpeningFcn', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 59)" style="font-weight:bold">cst2mysql_v2>cst2mysql_v2_OpeningFcn</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',59,0)">第 59 行</a>)
+handles = importInit(handles);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 220)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',220,0)">第 220 行</a>)
+    feval(gui_State.gui_OpeningFcn, gui_hFigure, [], guidata(gui_hFigure), varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 42)" style="font-weight:bold">cst2mysql_v2</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+} 
+help setdbprefs
+ <strong>setdbprefs</strong> - (Not recommended) Set preferences for retrieval format, errors, NULLs, and more
+    This MATLAB function returns current values for database preferences.
+
+    <strong>setdbprefs</strong>
+    v = <strong>setdbprefs</strong>
+    <strong>setdbprefs</strong>(preference)
+
+    <strong>setdbprefs</strong>(preference,value)
+    <strong>setdbprefs</strong>(s)
+
+    另请参阅 <a href="D:\design\MATLAB_version2021\help\database\ug\../../matlab/ref/clear.html">clear</a>, <a href="D:\design\MATLAB_version2021\help\database\ug\database.odbc.connection.fetch.html">fetch</a>, <a href="D:\design\MATLAB_version2021\help\database\ug\getdatasources.html">getdatasources</a>, <a href="D:\design\MATLAB_version2021\help\database\ug\database.html">database</a>, <a href="D:\design\MATLAB_version2021\help\database\ug\database.odbc.connection.close.html">close</a>
+
+    <a href="matlab:doc setdbprefs">setdbprefs 的文档</a>
+
+cst2mysql_v2

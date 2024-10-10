@@ -1,0 +1,275 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+[matlab][INFO] 正在获取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的所有参数行和数据行...
+[matlab][INFO] 正在提取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的参数值...
+[matlab][INFO] 正在计算文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的色散数据...
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 数据库连接成功
+[sql][INFO][CRUCIAL] 表genericunitsprmt的起始ID为7, 录入长度为1, 其原文件为SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+!! genericunitsprmt-7-1-SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsprmt的起始ID为35, 录入长度为4, 其原文件为SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+!! squarecuboidunitsprmt-35-4-SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsfreqresp_fir的起始ID为1217, 录入长度为324, 其原文件为SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+!! squarecuboidunitsfreqresp_fir-1217-324-SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',265,1)">265 </a>        disp('[matlab][INFO] 正在将数据写入中间文件...');
+if system_dependent('IsDebugMode')==1, dbquit; end
+conn = database('Metasurface_demo_db', 'root', '123456')
+
+conn = 
+
+  <a href="matlab:helpPopup database.odbc.connection" style="font-weight:bold">connection</a> - 属性:
+
+                  DataSource: 'Metasurface_demo_db'
+                    UserName: 'root'
+                     Message: ''
+                        Type: 'ODBC Connection Object'
+  Database Properties:
+
+                  AutoCommit: 'on'
+                    ReadOnly: 'off'
+                LoginTimeout: 0
+      MaxDatabaseConnections: 0
+
+  Catalog and Schema Information:
+
+              DefaultCatalog: 'metasurface_demo_db'
+                    Catalogs: {'information_schema', 'metasurface_demo_db', 'mysql' ... and 2 more}
+                     Schemas: {}
+
+  Database and Driver Information:
+
+         DatabaseProductName: 'MySQL'
+      DatabaseProductVersion: '11.3.2-MariaDB'
+                  DriverName: 'myodbc8w.dll'
+               DriverVersion: '08.01.0000'
+
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+{此类型的变量不支持使用花括号进行索引。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cell2mat', 'D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m', 36)" style="font-weight:bold">cell2mat</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',36,0)">第 36 行</a>)
+    if isnumeric(c{1}) || ischar(c{1}) || islogical(c{1}) || isstruct(c{1})
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LastIDs', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m', 4)" style="font-weight:bold">LastIDs</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',4,0)">第 4 行</a>)
+    LastIDs = cell2mat(LastIDs);
+} 
+<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',36,1)">36  </a>    if isnumeric(c{1}) || ischar(c{1}) || islogical(c{1}) || isstruct(c{1})
+if system_dependent('IsDebugMode')==1, dbquit; end
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+{此类型的变量不支持使用花括号进行索引。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cell2mat', 'D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m', 36)" style="font-weight:bold">cell2mat</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',36,0)">第 36 行</a>)
+    if isnumeric(c{1}) || ischar(c{1}) || islogical(c{1}) || isstruct(c{1})
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LastIDs', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m', 4)" style="font-weight:bold">LastIDs</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',4,0)">第 4 行</a>)
+    LastIDs = cell2mat(LastIDs);
+} 
+<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',36,1)">36  </a>    if isnumeric(c{1}) || ischar(c{1}) || islogical(c{1}) || isstruct(c{1})
+opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',4,0)
+if system_dependent('IsDebugMode')==1, dbquit; end
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',2,1)">2   </a>    sqlquery = sprintf('SELECT id FROM %s ORDER BY id DESC LIMIT %d', TableName, 4);
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+{此类型的变量不支持使用花括号进行索引。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cell2mat', 'D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m', 36)" style="font-weight:bold">cell2mat</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',36,0)">第 36 行</a>)
+    if isnumeric(c{1}) || ischar(c{1}) || islogical(c{1}) || isstruct(c{1})
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LastIDs', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m', 11)" style="font-weight:bold">LastIDs</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',11,0)">第 11 行</a>)
+    LastIDs = cell2mat(LastIDs);
+} 
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',8,1)">8   </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit all; end
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',8,1)">8   </a>    end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{此类型的变量不支持使用花括号进行索引。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cell2mat', 'D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m', 36)" style="font-weight:bold">cell2mat</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',36,0)">第 36 行</a>)
+    if isnumeric(c{1}) || ischar(c{1}) || islogical(c{1}) || isstruct(c{1})
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LastIDs', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m', 11)" style="font-weight:bold">LastIDs</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',11,0)">第 11 行</a>)
+    LastIDs = cell2mat(LastIDs);
+} 
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+
+ans =
+
+    34
+
+exec(conn, 'SELECT id FROM squarecuboidunitsprmt ORDER BY id DESC LIMIT 4;');
+ LastIDs = fetch(ans).Data
+
+LastIDs =
+
+  4×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {[34]}
+    {[33]}
+    {[32]}
+    {[31]}
+
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+{无法将类型为 database.odbc.connection 的值用作索引。
+
+'LastIDs' 似乎同时为函数和变量。如果这不是预期的情况，请使用 'clear LastIDs' 将变量 'LastIDs' 从工作区中删除。
+} 
+clear
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+{函数或变量 'conn' 无法识别。
+} 
+conn = database('Metasurface_demo_db', 'root', '123456')
+
+conn = 
+
+  <a href="matlab:helpPopup database.odbc.connection" style="font-weight:bold">connection</a> - 属性:
+
+                  DataSource: 'Metasurface_demo_db'
+                    UserName: 'root'
+                     Message: ''
+                        Type: 'ODBC Connection Object'
+  Database Properties:
+
+                  AutoCommit: 'on'
+                    ReadOnly: 'off'
+                LoginTimeout: 0
+      MaxDatabaseConnections: 0
+
+  Catalog and Schema Information:
+
+              DefaultCatalog: 'metasurface_demo_db'
+                    Catalogs: {'information_schema', 'metasurface_demo_db', 'mysql' ... and 2 more}
+                     Schemas: {}
+
+  Database and Driver Information:
+
+         DatabaseProductName: 'MySQL'
+      DatabaseProductVersion: '11.3.2-MariaDB'
+                  DriverName: 'myodbc8w.dll'
+               DriverVersion: '08.01.0000'
+
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+
+ans =
+
+  5×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {[34]}
+    {[33]}
+    {[32]}
+    {[31]}
+    {[30]}
+
+LastIDs(conn, 'squarecuboidunitsprmt', 1)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {[34]}
+
+LastIDs(conn, 'squarecuboidunitsprmt', 0)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {'No Data'}
+
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+
+ans =
+
+    34
+    33
+    32
+    31
+    30
+
+LastIDs(conn, 'squarecuboidunitsprmt', 50)
+
+ans =
+
+    34
+    33
+    32
+    31
+    30
+    29
+    25
+    24
+    23
+    22
+    18
+    17
+    16
+    15
+    11
+    10
+     9
+     8
+     5
+     4
+     3
+     2
+     1
+
+LastIDs(conn, 'squarecuboidunitsprmt', 100)
+
+ans =
+
+    34
+    33
+    32
+    31
+    30
+    29
+    25
+    24
+    23
+    22
+    18
+    17
+    16
+    15
+    11
+    10
+     9
+     8
+     5
+     4
+     3
+     2
+     1
+

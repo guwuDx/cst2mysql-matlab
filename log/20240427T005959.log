@@ -1,0 +1,39 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                        ignoreTheta: '1'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+
+mtrlInfo = 
+
+  包含以下字段的 3×1 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> 数组:
+
+    id
+    name
+    name_zn
+    primaryKey
+
+
+sparamInfo =
+
+  8×3 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {[1]}    {'Zmin(2), Zmax(2)'}    {'cmt'}
+    {[2]}    {'Zmin(1), Zmax(2)'}    {'cmt'}
+    {[3]}    {'Zmax(2), Zmax(2)'}    {'cmt'}
+    {[4]}    {'Zmax(1), Zmax(2)'}    {'cmt'}
+    {[5]}    {'Zmin(2), Zmax(1)'}    {'cmt'}
+    {[6]}    {'Zmin(1), Zmax(1)'}    {'cmt'}
+    {[7]}    {'Zmax(2), Zmax(1)'}    {'cmt'}
+    {[8]}    {'Zmax(1), Zmax(1)'}    {'cmt'}
+

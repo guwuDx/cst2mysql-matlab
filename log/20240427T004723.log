@@ -1,0 +1,29 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                        ignoreTheta: '1'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',657,1)">657 </a>    cd(rootPath);
+sparam
+{函数或变量 'sparam' 无法识别。
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+com.mathworks.jmi.MatlabException: DebugQuitException
+	at com.mathworks.jmi.NativeMatlab.SendMatlabMessage(Native Method)
+	at com.mathworks.jmi.NativeMatlab.sendMatlabMessage(NativeMatlab.java:273)
+	at com.mathworks.jmi.MatlabLooper.sendMatlabMessage(MatlabLooper.java:120)
+	at com.mathworks.jmi.Matlab.mtFevalConsoleOutput(Matlab.java:1835)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:195)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:172)
+	at com.mathworks.toolbox.matlab.guide.utils.LayoutWorker.runOnMatlabThread(LayoutWorker.java:51)
+	at com.mathworks.jmi.MatlabWorker$2.run(MatlabWorker.java:79)

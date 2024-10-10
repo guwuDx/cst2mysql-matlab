@@ -1,0 +1,52 @@
+[matlab][INFO] 请输入操作者称谓: 
+->{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1>importInit', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 280)" style="font-weight:bold">importGUI_v1>importInit</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',280,0)">第 280 行</a>)
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1>importGUI_v1_OpeningFcn', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 55)" style="font-weight:bold">importGUI_v1>importGUI_v1_OpeningFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',55,0)">第 55 行</a>)
+importInit();
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 220)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',220,0)">第 220 行</a>)
+    feval(gui_State.gui_OpeningFcn, gui_hFigure, [], guidata(gui_hFigure),
+    varargin{:});
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc>layoutActivate', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m', 1182)" style="font-weight:bold">guidefunc>layoutActivate</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m',1182,0)">第 1182 行</a>)
+    feval(fcn);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m', 12)" style="font-weight:bold">guidefunc</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m',12,0)">第 12 行</a>)
+            varargout = layoutActivate(varargin{:});
+} 
+com.mathworks.jmi.MatlabException: InterruptException(ctrl-c)
+	at com.mathworks.jmi.NativeMatlab.SendMatlabMessage(Native Method)
+	at com.mathworks.jmi.NativeMatlab.sendMatlabMessage(NativeMatlab.java:273)
+	at com.mathworks.jmi.MatlabLooper.sendMatlabMessage(MatlabLooper.java:120)
+	at com.mathworks.jmi.Matlab.mtFevalConsoleOutput(Matlab.java:1835)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:195)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:172)
+	at com.mathworks.toolbox.matlab.guide.utils.LayoutWorker.runOnMatlabThread(LayoutWorker.java:51)
+	at com.mathworks.jmi.MatlabWorker$2.run(MatlabWorker.java:79)
+{函数或变量 'scanStart_DeleteFcn' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_DeleteFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_DeleteFcn',hObject,eventdata,guidata(hObject))</a>} 
+错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 162)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',162,0)">第 162 行</a>)
+计算 UIControl DeleteFcn 时出错。
+
+{函数或变量 'scanStart_CreateFcn' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_CreateFcn',hObject,eventdata,guidata(hObject))</a>} 

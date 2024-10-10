@@ -1,0 +1,28 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                       ignoreETheta: '0'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',327,1)">327 </a>handles = dataImport(handles, fileInfo);
+if system_dependent('IsDebugMode')==1, dbquit; end
+importGUI_v1

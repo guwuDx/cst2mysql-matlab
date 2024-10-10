@@ -1,0 +1,83 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'mcb_test'
+                               User: 'root'
+                                Pwd: 'Metasurface331.'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '0'
+                   defaultThickness: '500'
+                       ignoreETheta: '1'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\pc\Desktop\test files\resam
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->h=400.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: h=400.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file h=400.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: h=400.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: h=400.txt...
+[matlab][INFO] Extracting parameter values for file: h=400.txt
+[matlab][INFO] Scanning S-parameter ID for file h=400.txt
+[matlab][INFO] Calculating dispersion data for file h=400.txt
+[matlab][INFO] Connecting to database...
+[matlab][INFO] Database connected successfully
+[matlab][INFO] Writing generic Parameters to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table genericunitsprmt, the details of the id are as follows:
+!! h=400.txt-genericunitsprmt-156-
+[matlab][INFO] Matching foreign keys for ParamArr...
+[matlab][INFO] Writing ParamArr to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table squarecuboidunitsprmt, the details of the id are as follows:
+!! h=400.txt-squarecuboidunitsprmt-4950-4949-4948-4947-
+[matlab][INFO] Matching foreign keys for DataArr(NIR)...
+[matlab][INFO] Writing DataArr to database, this operation may take some time...
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',330,1)">330 </a>        sqlwrite(conn, dbTable, DataArr_NIR);
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+insertStmt
+
+insertStmt = 
+
+  <a href="matlab:helpPopup database.internal.ODBCStatementHandle" style="font-weight:bold">ODBCStatementHandle</a> (不具有属性)。
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+cst2mysql_v2

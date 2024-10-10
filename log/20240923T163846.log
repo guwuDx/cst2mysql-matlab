@@ -1,0 +1,42 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'mcb_test'
+                               User: 'root'
+                                Pwd: 'Metasurface331.'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\pc\Desktop\test files\std
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->column_8_14um_p2.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: column_8_14um_p2.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file column_8_14um_p2.txt are set to:
+             Shape: Cylinder
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 2 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: column_8_14um_p2.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: column_8_14um_p2.txt...
+[matlab][INFO] Extracting parameter values for file: column_8_14um_p2.txt
+[matlab][INFO] Scanning S-parameter ID for file column_8_14um_p2.txt
+[matlab][INFO] Calculating dispersion data for file column_8_14um_p2.txt
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',233,1)">233 </a>        DataArr_MIR = [];
+if system_dependent('IsDebugMode')==1, dbquit; end
+cst2mysql_v2

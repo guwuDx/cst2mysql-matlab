@@ -1,0 +1,13 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                       ignoreETheta: '0'
+                           language: 'zh_CN'
+
+[matlab][ERROR] 文件ParamInfo.json内容不符合预期, 请检查文件内容, 程序终止

@@ -1,0 +1,96 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'mcb_test'
+                               User: 'root'
+                                Pwd: 'Metasurface331.'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '0'
+                   defaultThickness: '500'
+                       ignoreETheta: '1'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\pc\Desktop\test files\resam
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->h=400.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: h=400.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file h=400.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Silicon
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: h=400.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: h=400.txt...
+[matlab][INFO] Extracting parameter values for file: h=400.txt
+[matlab][INFO] Scanning S-parameter ID for file h=400.txt
+[matlab][INFO] Calculating dispersion data for file h=400.txt
+[matlab][INFO] Connecting to database...
+[matlab][INFO] Database connected successfully
+[matlab][INFO] Writing generic Parameters to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table genericunitsprmt, the details of the id are as follows:
+!! h=400.txt-genericunitsprmt-152-
+[matlab][INFO] Matching foreign keys for ParamArr...
+[matlab][INFO] Writing ParamArr to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table squarecuboidunitsprmt, the details of the id are as follows:
+!! h=400.txt-squarecuboidunitsprmt-4934-4933-4932-4931-
+[matlab][INFO] Matching foreign keys for DataArr(NIR)...
+[matlab][INFO] Writing DataArr to database, this operation may take some time...
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',330,1)">330 </a>        sqlwrite(conn, dbTable, DataArr_NIR);
+sqlwrite(conn, dbTable, DataArr_NIR);
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('database.odbc.connection/sqlwrite', 'D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m', 256)" style="font-weight:bold">database.odbc.connection/sqlwrite</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m',256,0)">第 256 行</a>)
+ODBC Error: ODBC Driver Error: .
+} 
+if system_dependent('IsDebugMode')==1, dbcont; end
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('database.odbc.connection/sqlwrite', 'D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m', 256)" style="font-weight:bold">database.odbc.connection/sqlwrite</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m',256,0)">第 256 行</a>)
+ODBC Error: ODBC Driver Error: .
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dataImport', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m', 330)" style="font-weight:bold">dataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',330,0)">第 330 行</a>)
+        sqlwrite(conn, dbTable, DataArr_NIR);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser>filePropertiesOK_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 305)" style="font-weight:bold">filePropertiesBrowser>filePropertiesOK_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',305,0)">第 305 行</a>)
+    handles = dataImport(handles, fileInfo);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 43)" style="font-weight:bold">filePropertiesBrowser</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',43,0)">第 43 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser(''filePropertiesOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser('filePropertiesOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+if system_dependent('IsDebugMode')==1, dbcont; end
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('database.odbc.connection/sqlwrite', 'D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m', 256)" style="font-weight:bold">database.odbc.connection/sqlwrite</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m',256,0)">第 256 行</a>)
+ODBC Error: ODBC Driver Error: .
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dataImport', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m', 330)" style="font-weight:bold">dataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',330,0)">第 330 行</a>)
+        sqlwrite(conn, dbTable, DataArr_NIR);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser>filePropertiesOK_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 305)" style="font-weight:bold">filePropertiesBrowser>filePropertiesOK_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',305,0)">第 305 行</a>)
+    handles = dataImport(handles, fileInfo);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 43)" style="font-weight:bold">filePropertiesBrowser</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',43,0)">第 43 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser(''filePropertiesOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser('filePropertiesOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 DestroyedObject Callback 时出错。
+
+cst2mysql_v2

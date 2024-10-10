@@ -1,0 +1,78 @@
+[matlab][INFO] 请输入操作者称谓: 
+->{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1>importInit', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 280)" style="font-weight:bold">importGUI_v1>importInit</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',280,0)">第 280 行</a>)
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1>importGUI_v1_OpeningFcn', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 55)" style="font-weight:bold">importGUI_v1>importGUI_v1_OpeningFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',55,0)">第 55 行</a>)
+importInit();
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 220)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',220,0)">第 220 行</a>)
+    feval(gui_State.gui_OpeningFcn, gui_hFigure, [], guidata(gui_hFigure),
+    varargin{:});
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc>layoutActivate', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m', 1182)" style="font-weight:bold">guidefunc>layoutActivate</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m',1182,0)">第 1182 行</a>)
+    feval(fcn);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m', 12)" style="font-weight:bold">guidefunc</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\guidefunc.m',12,0)">第 12 行</a>)
+            varargout = layoutActivate(varargin{:});
+} 
+com.mathworks.jmi.MatlabException: InterruptException(ctrl-c)
+	at com.mathworks.jmi.NativeMatlab.SendMatlabMessage(Native Method)
+	at com.mathworks.jmi.NativeMatlab.sendMatlabMessage(NativeMatlab.java:273)
+	at com.mathworks.jmi.MatlabLooper.sendMatlabMessage(MatlabLooper.java:120)
+	at com.mathworks.jmi.Matlab.mtFevalConsoleOutput(Matlab.java:1835)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:195)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:172)
+	at com.mathworks.toolbox.matlab.guide.utils.LayoutWorker.runOnMatlabThread(LayoutWorker.java:51)
+	at com.mathworks.jmi.MatlabWorker$2.run(MatlabWorker.java:79)
+java.lang.ClassCastException: [D cannot be cast to [Ljava.lang.Object;
+	at com.mathworks.toolbox.matlab.guide.LayoutArea.duplicateComplete(LayoutArea.java:970)
+	at com.mathworks.toolbox.matlab.guide.LayoutArea$DuplicateObserver.completed(LayoutArea.java:954)
+	at com.mathworks.toolbox.matlab.guide.utils.LayoutWorker.runOnMatlabThread(LayoutWorker.java:55)
+	at com.mathworks.jmi.MatlabWorker$2.run(MatlabWorker.java:79)
+guide
+[警告: 以后的版本中将会删除 GUIDE。请改用 APPDESIGNER。] 
+[警告: 以后的版本中将会删除 GUIDE。请改用 APPDESIGNER。] 
+help addpath
+ <strong>addpath</strong> - 向搜索路径中添加文件夹
+    此 MATLAB 函数 将指定的文件夹添加到当前 MATLAB 会话的搜索路径的顶层。
+
+    <strong>addpath</strong>(folderName1,...,folderNameN)
+    <strong>addpath</strong>(folderName1,...,folderNameN,position)
+
+    <strong>addpath</strong>(___,'-frozen')
+
+    oldpath = <strong>addpath</strong>(___)
+
+    另请参阅 <a href="C:\Program Files\Polyspace\R2021a\help\matlab\ref\genpath.html">genpath</a>, <a href="C:\Program Files\Polyspace\R2021a\help\matlab\ref\path.html">path</a>, <a href="C:\Program Files\Polyspace\R2021a\help\matlab\ref\pathsep.html">pathsep</a>, <a href="C:\Program Files\Polyspace\R2021a\help\matlab\ref\rmpath.html">rmpath</a>, <a href="C:\Program Files\Polyspace\R2021a\help\matlab\ref\savepath.html">savepath</a>
+
+    <a href="matlab:doc addpath">addpath 的文档</a>
+
+addpath('lib')
+MD5('guwudx')
+{找不到 'MD5' 的完全匹配项(区分大小写)。
+
+最接近的匹配项为: md5(在 C:\Users\27950\Desktop\DbMatlab\DataImport
+V1.0\lib\md5.m 中)
+} 
+md5('guwudx')
+
+ans =
+
+    'ffa6397321500c9f5f45b7af043fc460'
+
+{函数或变量 'scanStart_DeleteFcn' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\DataImport V1.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidemfile>@(hObject,eventdata)importGUI_v1(''scanStart_DeleteFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">guidemfile>@(hObject,eventdata)importGUI_v1('scanStart_DeleteFcn',hObject,eventdata,guidata(hObject))</a>} 
+错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('closereq', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\graphics\closereq.m', 18)" style="font-weight:bold">closereq</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\graphics\closereq.m',18,0)">第 18 行</a>)
+计算 UIControl DeleteFcn 时出错。
+

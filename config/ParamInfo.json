@@ -1,0 +1,211 @@
+[
+    {
+        "ID": 1,
+        "name": "height",
+        "name_zn": "单元结构高度",
+        "Keywords": [
+            "h",
+            "height"
+        ],
+        "sid": 1,
+        "belongs_to": "general"
+    }, {
+        "ID": 2,
+        "name": "period",
+        "name_zn": "单元结构排布周期",
+        "Keywords": [
+            "prd",
+            "p",
+            "period"
+        ],
+        "sid": 2,
+        "belongs_to": "general"
+    }, {
+        "ID": 3,
+        "name": "thickness",
+        "name_zn": "材料基底厚度",
+        "Keywords": [
+            "t",
+            "thickness",
+            "h1",
+            "thck"
+        ],
+        "sid": 3,
+        "belongs_to": "general"
+    }, {
+        "ID": 4,
+        "name": "E_theta",
+        "name_zn": "入射场角",
+        "Keywords": [
+            "E_theta",
+            "theta"
+        ],
+        "sid": 4,
+        "belongs_to": "general"
+    }, {
+        "ID": 5,
+        "name": "length",
+        "name_zn": "矩形截面的长度",
+        "Keywords": [
+            "l",
+            "length",
+            "a"
+        ],
+        "sid": 5,
+        "belongs_to": "Cuboid"
+    }, {
+        "ID": 6,
+        "name": "width",
+        "name_zn": "矩形截面的宽度",
+        "Keywords": [
+            "w",
+            "width",
+            "b"
+        ],
+        "sid": 6,
+        "belongs_to": "Cuboid"
+    }, {
+        "ID": 7,
+        "name": "side_length",
+        "name_zn": "正方型截面的边长",
+        "Keywords": [
+            "l",
+            "length",
+            "side_length",
+            "a",
+            "sl",
+            "w"
+        ],
+        "sid": 5,
+        "belongs_to": "SquareCuboid"
+    }, {
+        "ID": 8,
+        "name": "radius",
+        "name_zn": "圆柱截面半径",
+        "Keywords": [
+            "r",
+            "d",
+            "radius"
+        ],
+        "sid": 5,
+        "belongs_to": "Cylinder"
+    }, {
+        "ID": 9,
+        "name": "long_length",
+        "name_zn": "长边长度",
+        "Keywords": [
+            "l1",
+            "l_1",
+            "length1",
+            "length_1",
+            "long_length",
+            "a1",
+            "a_1"
+        ],
+        "sid": 5,
+        "belongs_to": "Cross"
+    }, {
+        "ID": 10,
+        "name": "short_length",
+        "name_zn": "短边长度",
+        "Keywords": [
+            "l2",
+            "l_2",
+            "length2",
+            "length_2",
+            "short_length",
+            "a2",
+            "a_2"
+        ],
+        "sid": 6,
+        "belongs_to": "Cross"
+    }, {
+        "ID": 11,
+        "name": "long_width",
+        "name_zn": "长边宽度",
+        "Keywords": [
+            "w1",
+            "w_1",
+            "width1",
+            "width_1",
+            "long_width",
+            "b1",
+            "b_1"
+        ],
+        "sid": 7,
+        "belongs_to": "Cross"
+    }, {
+        "ID": 12,
+        "name": "short_width",
+        "name_zn": "短边宽度",
+        "Keywords": [
+            "w2",
+            "w_2",
+            "width2",
+            "width_2",
+            "short_width",
+            "b2",
+            "b_2"
+        ],
+        "sid": 8,
+        "belongs_to": "Cross"
+    }, {
+        "ID": 13,
+        "name": "side_length",
+        "name_zn": "正方形孔洞的边长",
+        "Keywords": [
+            "l",
+            "length",
+            "side_length",
+            "a",
+            "sl",
+            "w"
+        ],
+        "sid": 5,
+        "belongs_to": "SquareHole"
+    }, {
+        "ID": 14,
+        "name": "width",
+        "name_zn": "对称十字型的宽度",
+        "Keywords": [
+            "w",
+            "width",
+            "b"
+        ],
+        "sid": 5,
+        "belongs_to": "SymmetricCross"
+    }, {
+        "ID": 15,
+        "name": "length",
+        "name_zn": "对称十字型的长度",
+        "Keywords": [
+            "l",
+            "length",
+            "a"
+        ],
+        "sid": 6,
+        "belongs_to": "SymmetricCross"
+    }, {
+        "ID": 16,
+        "name": "inner_length",
+        "name_zn": "方形环的内边长",
+        "Keywords": [
+            "w",
+            "width",
+            "b"
+        ],
+        "sid": 5,
+        "belongs_to": "SquareRing"
+    }, {
+        "ID": 17,
+        "name": "outer_length",
+        "name_zn": "方形环的外边长",
+        "Keywords": [
+            "l",
+            "length",
+            "a"
+        ],
+        "sid": 6,
+        "belongs_to": "SquareRing"
+    }
+]

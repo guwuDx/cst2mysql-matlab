@@ -1,0 +1,118 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'mcb_test'
+                               User: 'root'
+                                Pwd: 'Metasurface331.'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\pc\Desktop\test files\std
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->column_8_14um_p2.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: column_8_14um_p2.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+{函数或变量 'linkButton_Callback' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 43)" style="font-weight:bold">filePropertiesBrowser</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',43,0)">第 43 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser(''linkButton_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser('linkButton_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+[user][INFO] The properties of the file column_8_14um_p2.txt are set to:
+             Shape: Cylinder
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 2 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: column_8_14um_p2.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: column_8_14um_p2.txt...
+[matlab][INFO] Extracting parameter values for file: column_8_14um_p2.txt
+[matlab][INFO] Scanning S-parameter ID for file column_8_14um_p2.txt
+[matlab][INFO] Calculating dispersion data for file column_8_14um_p2.txt
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cat')" style="font-weight:bold">cat</a>
+要串联的数组的维度不一致。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cell2mat', 'D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m', 75)" style="font-weight:bold">cell2mat</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',75,0)">第 75 行</a>)
+            m{n} = cat(2,c{n,:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dataImport', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m', 234)" style="font-weight:bold">dataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',234,0)">第 234 行</a>)
+        DataArr_FIR = cell2mat(DataArr);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>paramOK_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 205)" style="font-weight:bold">paramsBrowser>paramOK_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',205,0)">第 205 行</a>)
+handles = dataImport(handles, fileInfo);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 42)" style="font-weight:bold">paramsBrowser</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)paramsBrowser(''paramOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)paramsBrowser('paramOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+[matlab][INFO] Selected path of cst result: C:\Users\pc\Desktop\test files\std
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->column_8_14um_p2.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: column_8_14um_p2.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file column_8_14um_p2.txt are set to:
+             Shape: Cylinder
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 2 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: column_8_14um_p2.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: column_8_14um_p2.txt...
+[matlab][INFO] Extracting parameter values for file: column_8_14um_p2.txt
+[matlab][INFO] Scanning S-parameter ID for file column_8_14um_p2.txt
+[matlab][INFO] Calculating dispersion data for file column_8_14um_p2.txt
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cat')" style="font-weight:bold">cat</a>
+要串联的数组的维度不一致。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cell2mat', 'D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m', 75)" style="font-weight:bold">cell2mat</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',75,0)">第 75 行</a>)
+            m{n} = cat(2,c{n,:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dataImport', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m', 234)" style="font-weight:bold">dataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',234,0)">第 234 行</a>)
+        DataArr_FIR = cell2mat(DataArr);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>paramOK_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 205)" style="font-weight:bold">paramsBrowser>paramOK_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',205,0)">第 205 行</a>)
+handles = dataImport(handles, fileInfo);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 42)" style="font-weight:bold">paramsBrowser</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)paramsBrowser(''paramOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)paramsBrowser('paramOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+opentoline('D:\design\MATLAB_version2021\toolbox\matlab\datatypes\cell2mat.m',75,0)
+cst2mysql_v2

@@ -1,0 +1,34 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+clc
+cst2mysql_v2
+{在当前文件夹或 MATLAB 路径中未找到 'cst2mysql_v2_export'，但它位于:
+ C:\Users\27950\Desktop\DbMatlab
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\27950\Desktop\DbMatlab''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\27950\Desktop\DbMatlab''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>@(hObject,eventdata)cst2mysql_v2_export(''scanStart_CreateFcn'',hObject,eventdata,guidata(hObject))', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\cst2mysql_v2.m', 465)" style="font-weight:bold">cst2mysql_v2>@(hObject,eventdata)cst2mysql_v2_export('scanStart_CreateFcn',hObject,eventdata,guidata(hObject))</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\cst2mysql_v2.m',465,0)">第 465 行</a>)
+'CreateFcn', {@local_CreateFcn, @(hObject,eventdata)cst2mysql_v2_export('scanStart_CreateFcn',hObject,eventdata,guidata(hObject)), appdata} ,...
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>local_CreateFcn', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\cst2mysql_v2.m', 555)" style="font-weight:bold">cst2mysql_v2>local_CreateFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\cst2mysql_v2.m',555,0)">第 555 行</a>)
+       createfcn(hObject, eventdata);
+} 
+错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>cst2mysql_v2_export_LayoutFcn', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\cst2mysql_v2.m', 443)" style="font-weight:bold">cst2mysql_v2>cst2mysql_v2_export_LayoutFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\Src\cst2mysql_v2.m',443,0)">第 443 行</a>)
+计算 UIControl CreateFcn 时出错。
+

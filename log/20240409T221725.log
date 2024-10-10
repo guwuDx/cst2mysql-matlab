@@ -1,0 +1,41 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid h notstandard.txt
+->SquareCuboid h notstandard2.txt
+->SquareCuboid h=1000.txt
+->SquareCuboid h=500.txt
+->SquareCuboid h=850.txt
+->SquareCuboid h=950.txt
+->SquareCuboidjhbawdbhdawjhb h notstandard3.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid h notstandard.txt
+[matlab][INFO] 第1个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h notstandard2.txt
+[matlab][INFO] 第2个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=1000.txt
+[matlab][INFO] 第3个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=500.txt
+[matlab][INFO] 第4个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=850.txt
+[matlab][INFO] 第5个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=950.txt
+[matlab][INFO] 第6个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboidjhbawdbhdawjhb h notstandard3.txt
+[matlab][INFO] 第7个文件, 共7个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V1.0\lib\dataImport.m',4,1)">4   </a>shapeInfo =     handles.shapeInfo;
+if system_dependent('IsDebugMode')==1, dbquit; end

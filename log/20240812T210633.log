@@ -1,0 +1,39 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result:  
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+无法将当前文件夹更改为 'C:\Users\pc\Desktop\cst2mysql_V2.0\config\ ' (名称不存在或不是文件夹)。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fileScan', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m', 4)" style="font-weight:bold">fileScan</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m',4,0)">第 4 行</a>)
+    cd(Path);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>scanStart_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 134)" style="font-weight:bold">cst2mysql_v2>scanStart_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',134,0)">第 134 行</a>)
+handles = fileScan(handles);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 42)" style="font-weight:bold">cst2mysql_v2</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)cst2mysql_v2(''scanStart_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)cst2mysql_v2('scanStart_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+cst2mysql_v2

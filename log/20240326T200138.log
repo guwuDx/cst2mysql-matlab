@@ -1,0 +1,67 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid_tst.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid_tst.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+--
+               name: 'SquareCuboid_tst.txt'
+             folder: 'C:\Users\27950\Desktop\DbMatlab\test files\1.2\single'
+               date: '20-3月-2024 17:30:16'
+              bytes: 7312
+              isdir: 0
+            datenum: 7.3933e+05
+    paramUnskipFlag: 0
+              Shape: 'SquareCuboid'
+      NIR_MIR_Split: 0
+      MIR_FIR_Split: 0
+         DataLength: 20
+            DataMap: [1 2 3 0 0]
+            DataNum: 3
+        TextLineNum: 3
+           ParamMap: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+           ParamNum: 4
+          ParamName: {'h'  'h1'  'l'  'p'  []  []  []  []  []  []  []  []  []  []  []  []  []  []  []  []}
+             params: {[]}
+               Unit: 1
+    shapeUnSkipFlag: 0
+       CalcDispFlag: 1
+         CalPhaFlag: 0
+         ParamStart: 17
+            shapeID: 2
+
+--
+{无法识别的字段名称 "paramNum"。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramStandardization', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V1.0\lib\paramStandardization.m', 17)" style="font-weight:bold">paramStandardization</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V1.0\lib\paramStandardization.m',17,0)">第 17 行</a>)
+for i = 1:crrFileInfo.paramNum
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1>scanStart_Callback', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V1.0\Src\importGUI_v1.m', 146)" style="font-weight:bold">importGUI_v1>scanStart_Callback</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V1.0\Src\importGUI_v1.m',146,0)">第 146 行</a>)
+    fileInfo(fileNum) = paramStandardization(fileInfo(fileNum), paramInfo, shapeInfo, ShapeNum);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V1.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V1.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_Callback'',hObject,eventdata,guidata(hObject))')

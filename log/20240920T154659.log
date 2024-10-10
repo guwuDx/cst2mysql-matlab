@@ -1,0 +1,262 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'mcb_test'
+                               User: 'root'
+                                Pwd: 'Metasurface331.'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '0'
+                   defaultThickness: '500'
+                       ignoreETheta: '1'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: D:\Users\TxBuffer\cstfiles
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->h=400.txt
+->h=450.txt
+->h=500.txt
+->h=550.txt
+->h=600.txt
+->h=650.txt
+->h=700.txt
+->h=750.txt
+->h=800.txt
+->h=850.txt
+->h=900.txt
+->h=950.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: h=400.txt
+[matlab][INFO] No.1/12
+[matlab][INFO] Reading and Analysing: h=450.txt
+[matlab][INFO] No.2/12
+[matlab][INFO] Reading and Analysing: h=500.txt
+[matlab][INFO] No.3/12
+[matlab][INFO] Reading and Analysing: h=550.txt
+[matlab][INFO] No.4/12
+[matlab][INFO] Reading and Analysing: h=600.txt
+[matlab][INFO] No.5/12
+[matlab][INFO] Reading and Analysing: h=650.txt
+[matlab][INFO] No.6/12
+[matlab][INFO] Reading and Analysing: h=700.txt
+[matlab][INFO] No.7/12
+[matlab][INFO] Reading and Analysing: h=750.txt
+[matlab][INFO] No.8/12
+[matlab][INFO] Reading and Analysing: h=800.txt
+[matlab][INFO] No.9/12
+[matlab][INFO] Reading and Analysing: h=850.txt
+[matlab][INFO] No.10/12
+[matlab][INFO] Reading and Analysing: h=900.txt
+[matlab][INFO] No.11/12
+[matlab][INFO] Reading and Analysing: h=950.txt
+[matlab][INFO] No.12/12
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file h=400.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=450.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=500.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=550.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=600.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=650.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=700.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=750.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=800.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=850.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=900.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file h=950.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Silicon Dioxide
+             Cell Material: Silicon
+             Unit: 1 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: h=400.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: h=400.txt...
+[matlab][INFO] Extracting parameter values for file: h=400.txt
+[matlab][INFO] Scanning S-parameter ID for file h=400.txt
+[matlab][INFO] Calculating dispersion data for file h=400.txt
+[matlab][INFO] Connecting to database...
+[matlab][INFO] Database connected successfully
+[matlab][INFO] Writing generic Parameters to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table genericunitsprmt, the details of the id are as follows:
+!! h=400.txt-genericunitsprmt-121-120-119-118-117-116-115-114-113-112-111-110-109-108-107-
+[matlab][INFO] Matching foreign keys for ParamArr...
+[matlab][INFO] Writing ParamArr to database...
+[sql][INFO][CRUCIAL] This time the file h=400.txt is entered into the table squarecuboidunitsprmt, the details of the id are as follows:
+!! h=400.txt-squarecuboidunitsprmt-3838-3837-3836-3835-3834-3833-3832-3831-3830-3829-3828-3827-3826-3825-3824-3823-3822-3821-3820-3819-3818-3817-3816-3815-3814-3813-3812-3811-3810-3809-3808-3807-3806-3805-3804-3803-3802-3801-3800-3799-3798-3797-3796-3795-3794-3793-3792-3791-3790-3789-3788-3787-3786-3785-3784-3783-3782-3781-3780-3779-3778-3777-3776-3775-3774-3773-3772-3771-3770-3769-3768-3767-3766-3765-3764-3763-3762-3761-3760-3759-3758-3757-3756-3755-3754-3753-3752-3751-3750-3749-3748-3747-3746-3745-3744-3743-3742-3741-3740-3739-3738-3737-3736-3735-3734-3733-3732-3731-3730-3729-3728-3727-3726-3725-3724-3723-3722-3721-3720-3719-3718-3717-3716-3715-3714-3713-3712-3711-3710-3709-3708-3707-3706-3705-3704-3703-3702-3701-3700-3699-3698-3697-3696-3695-3694-3693-3692-3691-3690-3689-3688-3687-3686-3685-3684-3683-3682-3681-3680-3679-3678-3677-3676-3675-3674-3673-3672-3671-3670-3669-3668-3667-3666-3665-3664-3663-3662-3661-3660-3659-3658-3657-3656-3655-3654-3653-3652-3651-3650-3649-3648-3647-3646-3645-3644-3643-3642-3641-3640-3639-3638-3637-3636-3635-3634-3633-3632-3631-3630-3629-3628-3627-3626-3625-3624-3623-3622-3621-3620-3619-3618-3617-3616-3615-3614-3613-3612-3611-3610-3609-3608-3607-3606-3605-3604-3603-3602-3601-3600-3599-3598-3597-3596-3595-3594-3593-3592-3591-3590-3589-3588-3587-3586-3585-3584-3583-3582-3581-3580-3579-3578-3577-3576-3575-3574-3573-3572-3571-3570-3569-3568-3567-3566-3565-3564-3563-3562-3561-3560-3559-3558-3557-3556-3555-3554-3553-3552-3551-3550-3549-3548-3547-3546-3545-3544-3543-3542-3541-3540-3539-3538-3537-3536-3535-3534-3533-3532-3531-3530-3529-3528-3527-3526-3525-3524-3523-3522-3521-3520-3519-3518-3517-3516-3515-3514-3513-3512-3511-3510-3509-3508-3507-3506-3505-3504-3503-3502-3501-3500-3499-3498-3497-3496-3495-3494-3493-3492-3491-3490-3489-3488-3487-3486-3485-3484-3483-3482-3481-3480-3479-3478-3477-3476-3475-3474-3473-3472-3471-3470-3469-3468-3467-3466-3465-3464-3463-3462-3461-3460-3459-3458-3457-3456-3455-3454-3453-3452-3451-3450-3449-3448-3447-3446-3445-3444-3443-3442-3441-3440-3439-3438-3437-3436-3435-3434-3433-3432-3431-3430-3429-3428-3427-3426-3425-3424-3423-3422-3421-3420-3419-3418-3417-3416-3415-3414-3413-3412-3411-3410-3409-3408-3407-3406-3405-3404-3403-3402-3401-3400-3399-3398-3397-3396-3395-3394-3393-3392-3391-3390-3389-3388-3387-3386-3385-3384-3383-3382-3381-3380-3379-3378-3377-3376-3375-3374-3373-3372-3371-3370-3369-3368-3367-3366-3365-3364-3363-3362-3361-3360-3359-3358-3357-3356-3355-3354-3353-3352-3351-3350-3349-3348-3347-3346-3345-3344-3343-3342-3341-3340-3339-3338-3337-3336-3335-3334-3333-3332-3331-3330-3329-3328-3327-3326-3325-3324-3323-3322-3321-3320-3319-3318-3317-3316-3315-3314-3313-3312-3311-3310-3309-3308-3307-3306-3305-3304-3303-3302-3301-3300-3299-3298-3297-3296-3295-3294-3293-
+[matlab][INFO] Matching foreign keys for DataArr(NIR)...
+[matlab][INFO] Writing DataArr to database, this operation may take some time...
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',330,1)">330 </a>        sqlwrite(conn, dbTable, DataArr_NIR);
+sqlwrite(conn, dbTable, DataArr_NIR);
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('database.odbc.connection/sqlwrite', 'D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m', 256)" style="font-weight:bold">database.odbc.connection/sqlwrite</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m',256,0)">第 256 行</a>)
+ODBC Error: ODBC Driver Error: .
+} 
+if system_dependent('IsDebugMode')==1, dbstep in; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('database.odbc.connection/sqlwrite', 'D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m', 256)" style="font-weight:bold">database.odbc.connection/sqlwrite</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\database\database\+database\+odbc\@connection\sqlwrite.m',256,0)">第 256 行</a>)
+ODBC Error: ODBC Driver Error: .
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dataImport', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m', 330)" style="font-weight:bold">dataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',330,0)">第 330 行</a>)
+        sqlwrite(conn, dbTable, DataArr_NIR);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser>filePropertiesOK_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 305)" style="font-weight:bold">filePropertiesBrowser>filePropertiesOK_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',305,0)">第 305 行</a>)
+    handles = dataImport(handles, fileInfo);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 43)" style="font-weight:bold">filePropertiesBrowser</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',43,0)">第 43 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser(''filePropertiesOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser('filePropertiesOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 DestroyedObject Callback 时出错。
+
+cst2mysql_v2

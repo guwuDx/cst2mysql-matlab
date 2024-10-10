@@ -1,0 +1,243 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                       ignoreETheta: '0'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',127,1)">127 </a>for fileNum = 1:siz
+if system_dependent('IsDebugMode')==1, dbcont; end
+find([paramInfo.name] == E_theta, 1)
+{函数或变量 'E_theta' 无法识别。
+} 
+find([paramInfo.name] == 'E_theta', 1)
+{对于此运算，数组的大小不兼容。
+
+<a href="matlab:helpview('matlab','error_sizeDimensionsMustMatch')" style="font-weight:bold">相关文档</a>
+} 
+find([paramInfo.name] == "E_theta", 1)
+
+ans =
+
+     []
+
+[paramInfo.name]
+
+ans =
+
+    'heightperiodthicknessE_thetalengthwidthside_lengthradiuslong_lengthshort_lengthlong_widthshort_width'
+
+vercat(paramInfo.name)
+{函数或变量 'vercat' 无法识别。
+} 
+vertcat(paramInfo.name)
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('vertcat')" style="font-weight:bold">vertcat</a>
+要串联的数组的维度不一致。
+} 
+selectFromStruct('name', 'paramInfo', 'e_theta')
+{此类型的变量不支持使用点进行索引。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('selectFromStruct', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\selectFromStruct.m', 6)" style="font-weight:bold">selectFromStruct</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\selectFromStruct.m',6,0)">第 6 行</a>)
+        if struct(i).(colnames) == value
+} 
+selectFromStruct('name', 'paramInfo', 'e_theta')
+{此类型的变量不支持使用点进行索引。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('selectFromStruct', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\selectFromStruct.m', 6)" style="font-weight:bold">selectFromStruct</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\selectFromStruct.m',6,0)">第 6 行</a>)
+        for i = 1:size(struct, 1)
+} 
+selectFromStruct('name', 'paramInfo', 'e_theta')
+{此类型的变量不支持使用点进行索引。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('selectFromStruct', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\selectFromStruct.m', 15)" style="font-weight:bold">selectFromStruct</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\selectFromStruct.m',15,0)">第 15 行</a>)
+            if struct(i).(colnames) == value
+} 
+isstring('e_theta')
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   0
+
+isstring("e_theta")
+
+ans =
+
+  <a href="matlab:helpPopup logical" style="font-weight:bold">logical</a>
+
+   1
+
+fileInfo.params(4)
+
+ans =
+
+  1×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {'side_length'}
+
+fileInfo.params{4}
+
+ans =
+
+    'side_length'
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',163,1)">163 </a>if f
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\paramStandardization.m',10,1)">10  </a>ParamArray(1:length(shapeInfo(1).colnames)) = shapeInfo(1).colnames;
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',163,1)">163 </a>if f
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',163,1)">163 </a>if f
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+{在不同结构体之间进行下标赋值。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1>scanStart_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m', 149)" style="font-weight:bold">importGUI_v1>scanStart_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',149,0)">第 149 行</a>)
+    fileInfo(fileNum) = paramStandardization(fileInfo(fileNum), ...
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\paramStandardization.m',34,1)">34  </a>                    crrFileInfo.paramMap(i) = paramInfo(k).sid;
+paramInfo(k).sid
+
+ans =
+
+     1
+
+crrFileInfo.paramMap(i)
+{无法识别的字段名称 "paramMap"。
+} 
+crrFileInfo.ParamMap(i)
+
+ans =
+
+     0
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid 1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid 1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',163,1)">163 </a>if f
+if system_dependent('IsDebugMode')==1, dbcont; end
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',299,1)">299 </a>val = get(handles.paramName, 'value');
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+param
+
+param =
+
+    'E_theta'
+
+paramStd
+
+paramStd =
+
+  4×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {'height'     }
+    {'period'     }
+    {'E_theta'    }
+    {'side_length'}
+

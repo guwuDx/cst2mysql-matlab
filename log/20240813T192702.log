@@ -1,0 +1,57 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\27950\Desktop\new
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->1d_.txt
+->1d_res.txt
+->1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: 1d_.txt
+[matlab][INFO] No.1/3
+[matlab][INFO] Reading and Analysing: 1d_res.txt
+[matlab][INFO] No.2/3
+[matlab][INFO] Reading and Analysing: 1d_result.txt
+[matlab][INFO] No.3/3
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file 1d_.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+             Unit: 2 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file 1d_res.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+             Unit: 2 (1 -> nm, 2 -> um, 3 -> mm)
+[user][INFO] The properties of the file 1d_result.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+             Unit: 2 (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: 1d_.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: 1d_.txt...
+[matlab][INFO] Extracting parameter values for file: 1d_.txt
+[matlab][INFO] Scanning S-parameter ID for file 1d_.txt
+<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\lib\dataImport.m',169,1)">169 </a>    if fileInfo(fileNum).paramUnit ~= 1
+if system_dependent('IsDebugMode')==1, dbquit; end
+cst2mysql_v2

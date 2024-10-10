@@ -1,0 +1,68 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+[matlab][INFO] 正在获取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的所有参数行和数据行...
+[matlab][INFO] 正在提取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的参数值...
+[matlab][INFO] 正在计算文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的色散数据...
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 数据库连接成功
+[matlab][INFO] 正在将genericParam写入数据库...
+[sql][INFO][CRUCIAL] 本次录入将文件SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt的通用参数部分录入表genericunitsprmt, 详情id如下:
+!! SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt-genericunitsprmt-1-
+[matlab][INFO] 正在为ParamArr匹配外键...
+[matlab][INFO] 正在将ParamArr写入数据库...
+[sql][INFO][CRUCIAL] 本次录入将文件SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt的特定参数部分录入表squarecuboidunitsprmt, 详情id如下:
+!! SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt-squarecuboidunitsprmt-4-3-2-1-
+[matlab][INFO] 未检测到近红外NIR数据, 跳过
+[matlab][INFO] 未检测到中红外MIR数据, 跳过
+[matlab][INFO] 正在为DataArr_FIR匹配外键...
+[matlab][INFO] 正在将DataArr_FIR写入数据库, 该操作可能需要一段时间...
+[sql][ERROR] ODBC Driver Error: [MySQL][ODBC 8.1(w) Driver][mysqld-11.3.2-MariaDB]Unknown column 'id' in 'field list'
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ErrFb', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\ErrFb.m', 8)" style="font-weight:bold">ErrFb</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\ErrFb.m',8,0)">第 8 行</a>)
+Error occurred, program terminated! Please view more specific information in the command line window
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('LastIDs', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m', 7)" style="font-weight:bold">LastIDs</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',7,0)">第 7 行</a>)
+        ErrFb();
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('dataImport', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m', 320)" style="font-weight:bold">dataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',320,0)">第 320 行</a>)
+        lID = LastIDs(conn, strcat(dbTable, '_FIR'), frq_l);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1>paramOK_Callback', 'C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m', 333)" style="font-weight:bold">importGUI_v1>paramOK_Callback</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',333,0)">第 333 行</a>)
+handles = dataImport(handles, fileInfo);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''paramOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('paramOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\LastIDs.m',7,0)

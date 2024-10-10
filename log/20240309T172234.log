@@ -1,0 +1,78 @@
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 请输入操作者称谓: 
+if system_dependent('IsDebugMode')==1, dbstep; end
+->guwudx
+<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V1.0\Src\DataImport.m',37,1)">37  </a>disp(' ');
+if system_dependent('IsDebugMode')==1, dbstep; end
+ 
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 正在加载配置文件和库函数...
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V1.0\Src\DataImport.m',47,1)">47  </a>    addpath(rootPath);
+if system_dependent('IsDebugMode')==1, dbstep; end
+<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V1.0\Src\DataImport.m',52,1)">52  </a>end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 本次导入属性如下:
+if system_dependent('IsDebugMode')==1, dbstep; end
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 正在连接数据库...
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 成功连接到数据库
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 检测到数据库缓冲池大小不足, 正在设置为: 1073741824
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] 请输入待导入数据文件路径: {操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DataImport', 'C:\Users\pc\Desktop\DataImport V1.0\Src\DataImport.m', 146)" style="font-weight:bold">DataImport</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V1.0\Src\DataImport.m',146,0)">第 146 行</a>)
+} 
+guide
+[警告: 以后的版本中将会删除 GUIDE。请改用 APPDESIGNER。] 
+[警告: 以后的版本中将会删除 GUIDE。请改用 APPDESIGNER。] 

@@ -1,0 +1,56 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\27950\Desktop\new
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->1d_.txt
+->1d_res.txt
+->1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: 1d_.txt
+[matlab][INFO] No.1/3
+[matlab][INFO] Reading and Analysing: 1d_res.txt
+[matlab][INFO] No.2/3
+[matlab][INFO] Reading and Analysing: 1d_result.txt
+[matlab][INFO] No.3/3
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file 1d_.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Silicon
+             Cell Material: Silicon
+             Unit: 2 (1 -> nm, 2 -> um, 3 -> mm)
+{无法识别的字段名称 "unit"。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser>filePropertiesOK_Callback', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 225)" style="font-weight:bold">filePropertiesBrowser>filePropertiesOK_Callback</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',225,0)">第 225 行</a>)
+            fileInfo(fileNum + 1).paramUnit      = fileInfo(nextFile).unit;
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('filePropertiesBrowser', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m', 42)" style="font-weight:bold">filePropertiesBrowser</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\filePropertiesBrowser.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser(''filePropertiesOK_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)filePropertiesBrowser('filePropertiesOK_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+cst2mysql_v2

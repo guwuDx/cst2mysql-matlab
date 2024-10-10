@@ -1,0 +1,79 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\pc\Desktop\new
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->1d_.txt
+->1d_res.txt
+->1d_result-diffparamname-diffpos.txt
+->1d_result.txt
+->1d_resultres.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: 1d_.txt
+[matlab][INFO] No.1/5
+[matlab][INFO] Reading and Analysing: 1d_res.txt
+[matlab][INFO] No.2/5
+[matlab][INFO] Reading and Analysing: 1d_result-diffparamname-diffpos.txt
+[matlab][INFO] No.3/5
+[matlab][INFO] Reading and Analysing: 1d_result.txt
+[matlab][INFO] No.4/5
+[matlab][INFO] Reading and Analysing: 1d_resultres.txt
+[matlab][INFO] No.5/5
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file 1d_.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_res.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_result-diffparamname-diffpos.txt are set to:
+             Shape: Cylinder
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_result.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_resultres.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidata', 'D:\design\MATLAB_version2021\toolbox\matlab\uitools\guidata.m', 87)" style="font-weight:bold">guidata</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\uitools\guidata.m',87,0)">第 87 行</a>)
+对象必须为图窗或其子对象之一。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>CloseRequestFcn', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 228)" style="font-weight:bold">paramsBrowser>CloseRequestFcn</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',228,0)">第 228 行</a>)
+mainHandle = guidata(handle.mainUI);
+} 
+计算 Figure CloseRequestFcn 时出错。
+
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidata', 'D:\design\MATLAB_version2021\toolbox\matlab\uitools\guidata.m', 87)" style="font-weight:bold">guidata</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\uitools\guidata.m',87,0)">第 87 行</a>)
+对象必须为图窗或其子对象之一。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>CloseRequestFcn', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 228)" style="font-weight:bold">paramsBrowser>CloseRequestFcn</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',228,0)">第 228 行</a>)
+mainHandle = guidata(handle.mainUI);
+} 
+计算 Figure CloseRequestFcn 时出错。
+
+close('all', 'force')
+cst2mysql_v2

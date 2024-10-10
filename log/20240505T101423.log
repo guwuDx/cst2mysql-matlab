@@ -1,0 +1,160 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->Squar 副本.txt
+->SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: Squar 副本.txt
+[matlab][INFO] 第1个文件, 共2个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第2个文件, 共2个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m',293,1)">293 </a>    handles.fileInfo = fileInfo;
+if system_dependent('IsDebugMode')==1, dbquit; end
+sparamInfo{j, 2}
+{未定义变量 sparamInfo。
+} 
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->Squar 副本.txt
+->SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: Squar 副本.txt
+[matlab][INFO] 第1个文件, 共2个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第2个文件, 共2个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m',293,1)">293 </a>    handles.fileInfo = fileInfo;
+sparamInfo{j, 2}
+
+ans =
+
+    'Zmax(1),Zmax(1)'
+
+length(ans)
+
+ans =
+
+    15
+
+FormatLine(i+2: i+14)
+
+ans =
+
+    'equency / THz'
+
+i
+
+i =
+
+     3
+
+length(ans)
+
+ans =
+
+    13
+
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->Squar 副本.txt
+->SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: Squar 副本.txt
+[matlab][INFO] 第1个文件, 共2个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第2个文件, 共2个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m',293,1)">293 </a>    handles.fileInfo = fileInfo;
+i
+
+i =
+
+     3
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->Squar 副本.txt
+->SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: Squar 副本.txt
+[matlab][INFO] 第1个文件, 共2个文件
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m',232,1)">232 </a>        end
+if system_dependent('IsDebugMode')==1, dbcont; end
+i
+
+i =
+
+    20
+
+FormatLine(i+2: i+16)
+
+ans =
+
+    'Zmax(1),Zmin(1)'
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->Squar 副本.txt
+->SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: Squar 副本.txt
+[matlab][INFO] 第1个文件, 共2个文件
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m',237,1)">237 </a>        NIR_MIR_Split = 0;
+if system_dependent('IsDebugMode')==1, dbcont; end
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Si-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第2个文件, 共2个文件
+FormatLine(i+2: i+16)
+
+ans =
+
+    'Zmax(1),Zmin(1)'
+
+length(sparamInfo)
+
+ans =
+
+     8
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+fileScan
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fileScan', 'C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m', 3)" style="font-weight:bold">fileScan</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\fileScan.m',3,0)">第 3 行</a>)
+    Path = handles.Path;
+} 
+importGUI_v1

@@ -1,0 +1,31 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+paramsBrowser
+{索引超出数组元素的数目(0)。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>paramsBrowser_OpeningFcn', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\dev\paramsBrowser.m', 66)" style="font-weight:bold">paramsBrowser>paramsBrowser_OpeningFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\dev\paramsBrowser.m',66,0)">第 66 行</a>)
+handles.mainHandle = varargin{2};
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 220)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',220,0)">第 220 行</a>)
+    feval(gui_State.gui_OpeningFcn, gui_hFigure, [], guidata(gui_hFigure), varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser', 'C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\dev\paramsBrowser.m', 42)" style="font-weight:bold">paramsBrowser</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\dev\paramsBrowser.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+} 
+cst2mysql_v2

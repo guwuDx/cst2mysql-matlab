@@ -1,0 +1,39 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                        ignoreTheta: '1'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',627,1)">627 </a>    cd(rootPath);
+mtrlInfo
+{函数或变量 'mtrlInfo' 无法识别。
+} 
+morlinfo
+if system_dependent('IsDebugMode')==1, dbquit; end
+com.mathworks.jmi.MatlabException: DebugQuitException
+	at com.mathworks.jmi.NativeMatlab.SendMatlabMessage(Native Method)
+	at com.mathworks.jmi.NativeMatlab.sendMatlabMessage(NativeMatlab.java:273)
+	at com.mathworks.jmi.MatlabLooper.sendMatlabMessage(MatlabLooper.java:120)
+	at com.mathworks.jmi.Matlab.mtFevalConsoleOutput(Matlab.java:1835)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:195)
+	at com.mathworks.jmi.MatlabWorker.feval(MatlabWorker.java:172)
+	at com.mathworks.toolbox.matlab.guide.utils.LayoutWorker.runOnMatlabThread(LayoutWorker.java:51)
+	at com.mathworks.jmi.MatlabWorker$2.run(MatlabWorker.java:79)
+{函数或变量 'filePropertiesBrowseBox_CreateFcn' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''filePropertiesBrowseBox_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('filePropertiesBrowseBox_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 

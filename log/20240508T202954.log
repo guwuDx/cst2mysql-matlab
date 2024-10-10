@@ -1,0 +1,98 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第1个文件, 共1个文件
+[matlab][INFO] 文件扫描完成
+[matlab][INFO] 正在获取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的所有参数行和数据行...
+[matlab][INFO] 正在提取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的参数值...
+[matlab][INFO] 正在计算文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt 的色散数据...
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',209,1)">209 </a>    if fileNum == 1
+cols = {'baseMaterial_id', 'cellMaterial_id', 'S_Param_id', shapeInfo(1).colnames}
+
+cols =
+
+  1×4 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {'baseMaterial_id'}    {'cellMaterial_id'}    {'S_Param_id'}    {4×1 cell}
+
+cols = {'baseMaterial_id', 'cellMaterial_id', 'S_Param_id', shapeInfo(1).colnames{:}}
+
+cols =
+
+  1×7 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {'baseMaterial_id'}    {'cellMaterial_id'}    {'S_Param_id'}    {'height'}    {'period'}    {'thickness'}    {'E_theta'}
+
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+{函数或变量 'conn' 无法识别。
+} 
+if system_dependent('IsDebugMode')==1, dbcont; end
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 数据库连接成功
+com.mathworks.mvm.exec.MvmExecutionException: internal.matlab.desktop.editor.clearBreakpoint
+	at com.mathworks.mvm.exec.NativeFutureResult.nativeGet(Native Method)
+	at com.mathworks.mvm.exec.NativeFutureResult.get(NativeFutureResult.java:62)
+	at com.mathworks.mvm.exec.FutureResult.getInternal(FutureResult.java:413)
+	at com.mathworks.mvm.exec.FutureFevalResult.getInternal(FutureFevalResult.java:49)
+	at com.mathworks.mvm.exec.FutureResult.get(FutureResult.java:263)
+	at com.mathworks.mlservices.MatlabDebugServices$3.run(MatlabDebugServices.java:978)
+	at com.mathworks.mvm.exec.NativeFutureResult.callRunnable(NativeFutureResult.java:146)
+	at com.mathworks.mvm.exec.NativeFutureResult.done(NativeFutureResult.java:138)
+Caused by: com.mathworks.mvm.exec.MvmRuntimeException: 不支持设置或清除超过最后一个表达式起始位置的断点。
+Error in ==> D:\design\MATLAB_version2021\toolbox\matlab\codetools\+internal\+matlab\+desktop\+editor\private\doSetBreakpoint.m>doSetBreakpoint at 42
+Error in ==> D:\design\MATLAB_version2021\toolbox\matlab\codetools\+internal\+matlab\+desktop\+editor\clearBreakpoint.m>clearBreakpointFromCorrespondingMFile at 36
+Error in ==> D:\design\MATLAB_version2021\toolbox\matlab\codetools\+internal\+matlab\+desktop\+editor\clearBreakpoint.m>clearBreakpoint at 25
+if system_dependent('IsDebugMode')==1, dbstep; end
+LastIDs(conn, 'squarecuboidunitsprmt', 5)
+
+ans =
+
+    34
+    33
+    32
+    31
+    30
+
+lID = LastIDs(conn, dbTable, l)
+{函数或变量 'dbTable' 无法识别。
+} 
+a = ans
+
+a =
+
+    34
+    33
+    32
+    31
+    30
+
+fprintf('!! %d-', a);
+!! 34-!! 33-!! 32-!! 31-!! 30-
+fprintf('!! ', '%d-', lID);
+{函数或变量 'lID' 无法识别。
+} 
+fprintf('!! ', '%d-', a);
+!! if system_dependent('IsDebugMode')==1, dbquit; end

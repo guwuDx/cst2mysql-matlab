@@ -1,0 +1,116 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''pathBrowse_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('pathBrowse_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''pathBrowse_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('pathBrowse_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''shapeBrowseBox_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('shapeBrowseBox_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''shapeName_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('shapeName_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''paramBrowseBox_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('paramBrowseBox_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''paramName_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('paramName_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''mainBox_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('mainBox_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''shapeBrowseBox_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('shapeBrowseBox_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''shapeName_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('shapeName_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''paramBrowseBox_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('paramBrowseBox_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''paramName_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('paramName_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''mainBox_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('mainBox_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql_V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql_V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_CreateFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_CreateFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+addpath(genpath('C:\Users\pc\Desktop\cst2mysql_V1.0'))
+savepath;
+[警告: 以后的版本中将会删除 GUIDE。请改用 APPDESIGNER。] 

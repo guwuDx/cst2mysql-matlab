@@ -1,0 +1,28 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'mcb_test'
+                               User: 'root'
+                                Pwd: 'Metasurface331.'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidata', 'D:\design\MATLAB_version2021\toolbox\matlab\uitools\guidata.m', 87)" style="font-weight:bold">guidata</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\uitools\guidata.m',87,0)">第 87 行</a>)
+对象必须为图窗或其子对象之一。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>CloseRequestFcn', 'C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 240)" style="font-weight:bold">paramsBrowser>CloseRequestFcn</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',240,0)">第 240 行</a>)
+mainHandle = guidata(handle.mainUI);
+} 
+计算 Figure CloseRequestFcn 时出错。
+
+close('all','force')
+cst2mysql_v2

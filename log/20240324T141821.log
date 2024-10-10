@@ -1,0 +1,25 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V1.0\Src\importGUI_v1.m',75,1)">75  </a>varargout{1} = handles.output;
+{函数或变量 'scanStart_DeleteFcn' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m', 95)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\gui_mainfcn.m',95,0)">第 95 行</a>)
+        feval(varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('importGUI_v1', 'C:\Users\pc\Desktop\DataImport V1.0\Src\importGUI_v1.m', 42)" style="font-weight:bold">importGUI_v1</a> (<a href="matlab: opentoline('C:\Users\pc\Desktop\DataImport V1.0\Src\importGUI_v1.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_DeleteFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_DeleteFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('closereq', 'D:\design\MATLAB_version2021\toolbox\matlab\graphics\closereq.m', 18)" style="font-weight:bold">closereq</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\graphics\closereq.m',18,0)">第 18 行</a>)
+计算 UIControl DeleteFcn 时出错。
+

@@ -1,0 +1,63 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+->SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+[matlab][INFO] 第1个文件, 共2个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第2个文件, 共2个文件
+[matlab][INFO] 文件扫描完成
+[matlab][INFO] 正在获取文件: SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt 的所有参数行和数据行...
+[matlab][INFO] 正在提取文件: SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt 的参数值...
+[matlab][INFO] 正在计算文件: SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt 的色散数据...
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 数据库连接成功
+[sql][INFO][CRUCIAL] 表genericunitsprmt的起始ID为2, 录入长度为4, 其原文件为SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+!! genericunitsprmt-2-4-SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsprmt的起始ID为5, 录入长度为4, 其原文件为SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+!! squarecuboidunitsprmt-5-4-SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+[sql][INFO][CRUCIAL] 表squarecuboidunitsfreqresp_fir的起始ID为209, 录入长度为324, 其原文件为SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+!! squarecuboidunitsfreqresp_fir-209-324-SquareCuboid-Silicon-Titanium Dioxide- 1d_result - fangzhu.txt
+[matlab][INFO] 正在将数据写入中间文件...
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V2.0\lib\dataImport.m',271,1)">271 </a>        writematrix(genericParam, strcat(FileName(1:end - 4), '_genericParam.csv'));
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbquit; end
+help compose
+ <strong>compose</strong> - 将数据格式化为多个字符串
+    此 MATLAB 函数 使用 formatSpec 指定的格式化操作符对输入数组 A 中的数据值进行格式
+    化，并在 str 中返回结果文本。compose 函数按列顺序对 A 中值进行格式化。如果
+    formatSpec 是字符串数组，则输出数组 str 也是字符串数组。否则，str 为字符向量元胞数
+    组。
+
+    str = <strong>compose</strong>(formatSpec,A)
+    str = <strong>compose</strong>(formatSpec,A1,...,AN)
+    str = <strong>compose</strong>(txt)
+
+    另请参阅 <a href="D:\design\MATLAB_version2021\help\matlab\ref\sprintf.html">sprintf</a>, <a href="D:\design\MATLAB_version2021\help\matlab\ref\string.html">string</a>, <a href="D:\design\MATLAB_version2021\help\matlab\ref\sscanf.html">sscanf</a>, <a href="D:\design\MATLAB_version2021\help\matlab\ref\fprintf.html">fprintf</a>, <a href="D:\design\MATLAB_version2021\help\matlab\ref\fscanf.html">fscanf</a>
+
+    <a href="matlab:doc compose">compose 的文档</a>
+    <a href="matlab:matlab.internal.language.introspective.overloads.displayOverloads('compose')">名为 compose 的其他函数</a>
+

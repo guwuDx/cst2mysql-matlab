@@ -1,0 +1,62 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\pc\Desktop\new
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->1d_.txt
+->1d_res.txt
+->1d_result-diffparamname-diffpos.txt
+->1d_result.txt
+->1d_resultres.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: 1d_.txt
+[matlab][INFO] No.1/5
+[matlab][INFO] Reading and Analysing: 1d_res.txt
+[matlab][INFO] No.2/5
+[matlab][INFO] Reading and Analysing: 1d_result-diffparamname-diffpos.txt
+[matlab][INFO] No.3/5
+[matlab][INFO] Reading and Analysing: 1d_result.txt
+[matlab][INFO] No.4/5
+[matlab][INFO] Reading and Analysing: 1d_resultres.txt
+[matlab][INFO] No.5/5
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file 1d_.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_res.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_result-diffparamname-diffpos.txt are set to:
+             Shape: Cylinder
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_result.txt are set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+[user][INFO] The properties of the file 1d_resultres.txt are automatically set to:
+             Shape: SquareCuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+cst2mysql_v2

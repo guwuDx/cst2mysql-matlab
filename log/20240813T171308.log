@@ -1,0 +1,376 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '0'
+                   defaultThickness: '500'
+                       ignoreETheta: '1'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+[matlab][INFO] Selected path of cst result: C:\Users\27950\Desktop\new\rectangle
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: 1d_result.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file 1d_result.txt are set to:
+             Shape: Cuboid
+             Base Material: Germanium
+             Cell Material: Titanium Dioxide
+             Unit:  (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: 1d_result.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: 1d_result.txt...
+[matlab][INFO] Extracting parameter values for file: 1d_result.txt
+[matlab][INFO] Scanning S-parameter ID for file 1d_result.txt
+[matlab][INFO] Calculating dispersion data for file 1d_result.txt
+[matlab][INFO] Connecting to database...
+[matlab][INFO] Database connected successfully
+<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\lib\dataImport.m',262,1)">262 </a>    disp('[matlab][INFO] Writing generic Parameters to database...');
+if system_dependent('IsDebugMode')==1, dbquit; end
+[matlab][INFO] Selected path of cst result: C:\Users\27950\Desktop\new\rectangle
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: 1d_result.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file 1d_result.txt are set to:
+             Shape: Cuboid
+             Base Material: Silicon
+             Cell Material: Silicon
+             Unit:  (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: 1d_result.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: 1d_result.txt...
+[matlab][INFO] Extracting parameter values for file: 1d_result.txt
+[matlab][INFO] Scanning S-parameter ID for file 1d_result.txt
+<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\lib\dataImport.m',136,1)">136 </a>    ParamArr = strings(CellStructNum, 3 + shapeInfo(fileInfo(fileNum).shapeID).paramNum + 1);
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] Calculating dispersion data for file 1d_result.txt
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] Connecting to database...
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] Database connected successfully
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] Writing generic Parameters to database...
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[sql][INFO][CRUCIAL] This time the file 1d_result.txt is entered into the table genericunitsprmt, the details of the id are as follows:
+if system_dependent('IsDebugMode')==1, dbstep; end
+!! 1d_result.txt-genericunitsprmt-if system_dependent('IsDebugMode')==1, dbstep; end
+8-7-6-5-if system_dependent('IsDebugMode')==1, dbstep; end
+
+shapeInfo(shapeID).colnames
+
+ans =
+
+  2×1 <a href="matlab:helpPopup cell" style="font-weight:bold">cell</a> 数组
+
+    {'length'}
+    {'width' }
+
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] Matching foreign keys for ParamArr...
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+[matlab][INFO] Writing ParamArr to database...
+if system_dependent('IsDebugMode')==1, dbstep; end
+[shapeInfo(shapeID).colnames, 'GUP_ID']
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('horzcat')" style="font-weight:bold">horzcat</a>
+串联维度不一致，因为 1×6 'char' 数组已转换为 1×1 'cell' 数组。请在串联之前考虑创建相同类型的数组。
+} 
+if system_dependent('IsDebugMode')==1, dbquit; end
+fclose('all')
+
+ans =
+
+     0
+
+cst2mysql_v2
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+无法将当前文件夹更改为 'C:\Users\27950\Desktop\new\log' (名称不存在或不是文件夹)。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>importInit', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 218)" style="font-weight:bold">cst2mysql_v2>importInit</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',218,0)">第 218 行</a>)
+cd('log');
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>cst2mysql_v2_OpeningFcn', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 59)" style="font-weight:bold">cst2mysql_v2>cst2mysql_v2_OpeningFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',59,0)">第 59 行</a>)
+handles = importInit(handles);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 220)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',220,0)">第 220 行</a>)
+    feval(gui_State.gui_OpeningFcn, gui_hFigure, [], guidata(gui_hFigure), varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 42)" style="font-weight:bold">cst2mysql_v2</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+} 
+[matlab][INFO] Selected path of cst result: C:\Users\27950\Desktop\new\rectangle
+[matlab][INFO] Initializing FileInfoStrct...
+[matlab][INFO] Initializing done
+[matlab][INFO] The following files are detected: 
+||=============================================================||
+->1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] Reading and Analysing: 1d_result.txt
+[matlab][INFO] No.1/1
+[matlab][INFO] File scanning done
+[user][INFO] The properties of the file 1d_result.txt are set to:
+             Shape: Cuboid
+             Base Material: Silicon
+             Cell Material: Silicon
+             Unit:  (1 -> nm, 2 -> um, 3 -> mm)
+[matlab][INFO] Getting all parameter lines of file: 1d_result.txt...
+[matlab][INFO] Getting all data lines and data description lines of file: 1d_result.txt...
+[matlab][INFO] Extracting parameter values for file: 1d_result.txt
+[matlab][INFO] Scanning S-parameter ID for file 1d_result.txt
+<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\lib\dataImport.m',136,1)">136 </a>    ParamArr = strings(CellStructNum, 3 + shapeInfo(fileInfo(fileNum).shapeID).paramNum + 1);
+if system_dependent('IsDebugMode')==1, dbcont; end
+[matlab][INFO] Calculating dispersion data for file 1d_result.txt
+[matlab][INFO] Connecting to database...
+[matlab][INFO] Database connected successfully
+[matlab][INFO] Writing generic Parameters to database...
+if system_dependent('IsDebugMode')==1, dbcont; end
+[sql][INFO][CRUCIAL] This time the file 1d_result.txt is entered into the table genericunitsprmt, the details of the id are as follows:
+!! 1d_result.txt-genericunitsprmt-12-11-10-9-
+[matlab][INFO] Matching foreign keys for ParamArr...
+[matlab][INFO] Writing ParamArr to database...
+[shapeInfo(shapeID).colnames{:}, 'GUP_ID']
+
+ans =
+
+    'lengthwidthGUP_ID'
+
+if system_dependent('IsDebugMode')==1, dbquit; end
+fclose('all')
+
+ans =
+
+     0
+
+['a', 'b']
+
+ans =
+
+    'ab'
+
+["a", "b"]
+
+ans = 
+
+  1×2 <a href="matlab:helpPopup string" style="font-weight:bold">string</a> 数组
+
+    "a"    "b"
+
+cst2mysql_v2
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+无法将当前文件夹更改为 'C:\Users\27950\Desktop\new\log' (名称不存在或不是文件夹)。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>importInit', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 218)" style="font-weight:bold">cst2mysql_v2>importInit</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',218,0)">第 218 行</a>)
+cd('log');
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2>cst2mysql_v2_OpeningFcn', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 59)" style="font-weight:bold">cst2mysql_v2>cst2mysql_v2_OpeningFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',59,0)">第 59 行</a>)
+handles = importInit(handles);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('gui_mainfcn', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m', 220)" style="font-weight:bold">gui_mainfcn</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\guide\gui_mainfcn.m',220,0)">第 220 行</a>)
+    feval(gui_State.gui_OpeningFcn, gui_hFigure, [], guidata(gui_hFigure), varargin{:});
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('cst2mysql_v2', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m', 42)" style="font-weight:bold">cst2mysql_v2</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\cst2mysql_v2.m',42,0)">第 42 行</a>)
+    gui_mainfcn(gui_State, varargin{:});
+} 
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidata', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\uitools\guidata.m', 87)" style="font-weight:bold">guidata</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\uitools\guidata.m',87,0)">第 87 行</a>)
+对象必须为图窗或其子对象之一。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>CloseRequestFcn', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 240)" style="font-weight:bold">paramsBrowser>CloseRequestFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',240,0)">第 240 行</a>)
+mainHandle = guidata(handle.mainUI);
+} 
+计算 Figure CloseRequestFcn 时出错。
+
+{错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidata', 'C:\Program Files\Polyspace\R2021a\toolbox\matlab\uitools\guidata.m', 87)" style="font-weight:bold">guidata</a> (<a href="matlab: opentoline('C:\Program Files\Polyspace\R2021a\toolbox\matlab\uitools\guidata.m',87,0)">第 87 行</a>)
+对象必须为图窗或其子对象之一。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('paramsBrowser>CloseRequestFcn', 'C:\Users\27950\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m', 240)" style="font-weight:bold">paramsBrowser>CloseRequestFcn</a> (<a href="matlab: opentoline('C:\Users\27950\Desktop\cst2mysql_V2.0\dev\paramsBrowser.m',240,0)">第 240 行</a>)
+mainHandle = guidata(handle.mainUI);
+} 
+计算 Figure CloseRequestFcn 时出错。
+
+close('all','force')
+cst2mysql_v2

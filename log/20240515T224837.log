@@ -1,0 +1,41 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在读取数据库中的S参数信息...
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid-Silicon-Titanium Dioxide-1d_.txt
+->SquareCuboid-Silicon-Titanium Dioxide-1d_res_nostrd.txt
+->SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide-1d_.txt
+[matlab][INFO] 第1个文件, 共3个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide-1d_res_nostrd.txt
+[matlab][INFO] 第2个文件, 共3个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid-Silicon-Titanium Dioxide-1d_result.txt
+[matlab][INFO] 第3个文件, 共3个文件
+[matlab][INFO] 文件扫描完成
+[matlab][INFO] 正在获取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_.txt 的所有参数行和数据行...
+[matlab][INFO] 正在获取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_.txt 的所有数据行和数据描述行...
+[matlab][INFO] 正在提取文件: SquareCuboid-Silicon-Titanium Dioxide-1d_.txt 的参数值...
+[matlab][INFO] 正在扫描文件 SquareCuboid-Silicon-Titanium Dioxide-1d_.txt 的S参数ID...
+<a href="matlab: opentoline('C:\Users\27950\Desktop\DbMatlab\cst2mysql_V2.0\lib\dataImport.m',120,1)">120 </a>    for i = 1:CellStructNum
+if system_dependent('IsDebugMode')==1, dbquit all; end
+importGUI_v1

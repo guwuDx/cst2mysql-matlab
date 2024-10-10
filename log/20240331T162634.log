@@ -1,0 +1,83 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+[matlab][INFO] 正在初始化文件信息其他部分...
+[matlab][INFO] 初始化完成
+[matlab][INFO] 以下文件将被处理并导入:
+||=============================================================||
+->SquareCuboid h notstandard.txt
+->SquareCuboid h notstandard2.txt
+->SquareCuboid h notstandard3.txt
+->SquareCuboid h=1000.txt
+->SquareCuboid h=500.txt
+->SquareCuboid h=850.txt
+->SquareCuboid h=950.txt
+||=============================================================||
+ 
+[matlab][INFO] 正在读取分析文件: SquareCuboid h notstandard.txt
+[matlab][INFO] 第1个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h notstandard2.txt
+[matlab][INFO] 第2个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h notstandard3.txt
+[matlab][INFO] 第3个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=1000.txt
+[matlab][INFO] 第4个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=500.txt
+[matlab][INFO] 第5个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=850.txt
+[matlab][INFO] 第6个文件, 共7个文件
+[matlab][INFO] 正在读取分析文件: SquareCuboid h=950.txt
+[matlab][INFO] 第7个文件, 共7个文件
+[matlab][INFO] 文件扫描完成
+<a href="matlab: opentoline('C:\Users\pc\Desktop\cst2mysql_V1.0\Src\importGUI_v1.m',300,1)">300 </a>if isempty(posTmp)
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+handles
+
+handles = 
+
+  包含以下字段的 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a>:
+
+         cst2mysql: [1×1 Figure]
+    shapeBrowseBox: [1×1 Panel]
+    paramBrowseBox: [1×1 Panel]
+           mainBox: [1×1 Panel]
+           shapeOK: [1×1 UIControl]
+       unknowShape: [1×1 UIControl]
+         shapeName: [1×1 UIControl]
+         paramName: [1×1 UIControl]
+      unknownParam: [1×1 UIControl]
+           paramOK: [1×1 UIControl]
+            text16: [1×1 UIControl]
+            text14: [1×1 UIControl]
+             text2: [1×1 UIControl]
+        pathBrowse: [1×1 UIControl]
+         scanStart: [1×1 UIControl]
+             text1: [1×1 UIControl]
+            output: [1×1 Figure]
+          filePath: 'C:\Users\pc\Desktop\cst2mysql_V1.0\Src'
+          rootPath: 'C:\Users\pc\Desktop\cst2mysql_V1.0'
+        properties: [1×1 struct]
+             N_MIR: 119.9170
+             M_FIR: 59.9585
+         shapeInfo: [5×1 struct]
+         paramInfo: [11×1 struct]
+          ShapeNum: 4
+              Path: 'C:\Users\pc\Desktop\cst2mysql_V1.0\1.7.(1).9'
+               siz: 7
+          fileInfo: [7×1 struct]
+          nextFile: 2
+     paramNameCell: {'thickness'}
+            posTmp: 2
+
+if system_dependent('IsDebugMode')==1, dbquit; end

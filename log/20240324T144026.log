@@ -1,0 +1,36 @@
+[matlab][INFO] 正在加载配置文件和库函数...
+[matlab][INFO] 本次导入属性如下:
+    minimum_innodb_buffer_pool_size: '1073741824'
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+
+[matlab][INFO] 正在连接数据库...
+[matlab][INFO] 成功连接到数据库
+{在当前文件夹或 MATLAB 路径中未找到 'importGUI_v1'，但它位于:
+ C:\Users\pc\Desktop\DataImport V1.0\Src
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\DataImport V1.0\Src''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\DataImport V1.0\Src''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1(''scanStart_DeleteFcn'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)importGUI_v1('scanStart_DeleteFcn',hObject,eventdata,guidata(hObject))</a>
+} 
+错误使用 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('closereq', 'D:\design\MATLAB_version2021\toolbox\matlab\graphics\closereq.m', 18)" style="font-weight:bold">closereq</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\graphics\closereq.m',18,0)">第 18 行</a>)
+计算 UIControl DeleteFcn 时出错。
+
+[警告: 转义字符 '\U' 无效。有关支持的特殊字符，请参阅 'doc sprintf'。] 
+[> 位置：<a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidemfile>scrollToCBSubfunction', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m', 1728)" style="font-weight:bold">guidemfile>scrollToCBSubfunction</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m',1728,0)">第 1728 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidemfile', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m', 11)" style="font-weight:bold">guidemfile</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m',11,0)">第 11 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc>editCallback', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m', 559)" style="font-weight:bold">guidefunc>editCallback</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m',559,0)">第 559 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m', 43)" style="font-weight:bold">guidefunc</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m',43,0)">第 43 行</a>)] 
+[警告: 转义字符 '\U' 无效。有关支持的特殊字符，请参阅 'doc sprintf'。] 
+[> 位置：<a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidemfile>scrollToCBSubfunction', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m', 1728)" style="font-weight:bold">guidemfile>scrollToCBSubfunction</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m',1728,0)">第 1728 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidemfile', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m', 11)" style="font-weight:bold">guidemfile</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m',11,0)">第 11 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc>editCallback', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m', 559)" style="font-weight:bold">guidefunc>editCallback</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m',559,0)">第 559 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m', 43)" style="font-weight:bold">guidefunc</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m',43,0)">第 43 行</a>)] 
+[警告: 转义字符 '\U' 无效。有关支持的特殊字符，请参阅 'doc sprintf'。] 
+[> 位置：<a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidemfile>scrollToCBSubfunction', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m', 1728)" style="font-weight:bold">guidemfile>scrollToCBSubfunction</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m',1728,0)">第 1728 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidemfile', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m', 11)" style="font-weight:bold">guidemfile</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidemfile.m',11,0)">第 11 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc>editCallback', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m', 559)" style="font-weight:bold">guidefunc>editCallback</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m',559,0)">第 559 行</a>)
+位置: <a href="matlab:matlab.internal.language.introspective.errorDocCallback('guidefunc', 'D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m', 43)" style="font-weight:bold">guidefunc</a> (<a href="matlab: opentoline('D:\design\MATLAB_version2021\toolbox\matlab\guide\guidefunc.m',43,0)">第 43 行</a>)] 
