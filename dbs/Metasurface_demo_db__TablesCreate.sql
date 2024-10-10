@@ -12,7 +12,7 @@
 -- -----------------------------------------------------------------------------------------------------
 -- 材料定义表建表初始化
 
-CREATE TABLE MaterialDef (
+CREATE TABLE IF NOT EXISTS MaterialDef (
     ID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '主键',
     `name` VARCHAR(20) NOT NULL COMMENT '材料名称',
     `comment` VARCHAR(100) NULL COMMENT '材料描述'
@@ -32,7 +32,7 @@ INSERT INTO MaterialDef (`name`, `comment`) VALUES
 -- -----------------------------------------------------------------------------------------------------
 -- S-parameter表建表初始化
 
-CREATE TABLE SParameter (
+CREATE TABLE IF NOT EXISTS SParameter (
     ID SMALLINT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '主键',
     `S_Param` VARCHAR(20) NOT NULL UNIQUE COMMENT 'S参数',
     `comment` VARCHAR(100) NULL COMMENT 'S参数描述'
@@ -60,7 +60,7 @@ INSERT INTO SParameter (`S_Param`, `comment`) VALUES
 -- -----------------------------------------------------------------------------------------------------
 -- 所有形状单元结构基本参数（一级）表建表
 
-CREATE TABLE GenericUnitsPrmt (
+CREATE TABLE IF NOT EXISTS GenericUnitsPrmt (
     ID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '主键',
     `baseMaterial_id` INT UNSIGNED NOT NULL COMMENT '基底材料ID',
     `cellMaterial_id` INT UNSIGNED NOT NULL COMMENT '单元材料ID',
@@ -79,7 +79,7 @@ CREATE TABLE GenericUnitsPrmt (
 -- -----------------------------------------------------------------------------------------------------
 -- 各形状特殊（二级）单元结构参数表建表
 
-CREATE TABLE CuboidUnitsPrmt (
+CREATE TABLE IF NOT EXISTS CuboidUnitsPrmt (
     ID INT UNSIGNED AUTO_INCREMENT,
     `length` INT UNSIGNED NOT NULL COMMENT '长',
     width INT UNSIGNED NOT NULL COMMENT '宽',
@@ -88,7 +88,7 @@ CREATE TABLE CuboidUnitsPrmt (
     FOREIGN KEY (GUP_ID) REFERENCES GenericUnitsPrmt(ID)
 ) COMMENT '矩形截面方体单元结构特征参数表';
 
-CREATE TABLE SquareCuboidUnitsPrmt (
+CREATE TABLE IF NOT EXISTS SquareCuboidUnitsPrmt (
     ID INT UNSIGNED AUTO_INCREMENT,
     side_length INT UNSIGNED NOT NULL COMMENT '边长',
     GUP_ID INT UNSIGNED NOT NULL,
@@ -96,7 +96,7 @@ CREATE TABLE SquareCuboidUnitsPrmt (
     FOREIGN KEY (GUP_ID) REFERENCES GenericUnitsPrmt(ID)
 ) COMMENT '正方形截面方体单元结构特征参数表';
 
-CREATE TABLE CylinderUnitsPrmt (
+CREATE TABLE IF NOT EXISTS CylinderUnitsPrmt (
     ID INT UNSIGNED AUTO_INCREMENT,
     radius INT UNSIGNED NOT NULL COMMENT '半径',
     GUP_ID INT UNSIGNED NOT NULL,
@@ -104,7 +104,7 @@ CREATE TABLE CylinderUnitsPrmt (
     FOREIGN KEY (GUP_ID) REFERENCES GenericUnitsPrmt(ID)
 ) COMMENT '圆柱体单元结构特征参数表';
 
-CREATE TABLE CrossUnitsPrmt (
+CREATE TABLE IF NOT EXISTS CrossUnitsPrmt (
     ID INT UNSIGNED AUTO_INCREMENT,
     long_length INT UNSIGNED NOT NULL COMMENT '长边，长',
     long_width INT UNSIGNED NOT NULL COMMENT '长边，短',
@@ -115,7 +115,7 @@ CREATE TABLE CrossUnitsPrmt (
     FOREIGN KEY (GUP_ID) REFERENCES GenericUnitsPrmt(ID)
 ) COMMENT '十字形单元结构特征参数表';
 
-CREATE TABLE squareholeunitsprmt (
+CREATE TABLE IF NOT EXISTS squareholeunitsprmt (
     ID INT UNSIGNED AUTO_INCREMENT,
     side_length INT UNSIGNED NOT NULL COMMENT '边长',
     GUP_ID INT UNSIGNED NOT NULL,
@@ -123,7 +123,7 @@ CREATE TABLE squareholeunitsprmt (
     FOREIGN KEY (GUP_ID) REFERENCES GenericUnitsPrmt(ID)
 ) COMMENT '方形孔洞单元结构特征参数表';
 
-CREATE TABLE symmetriccrossunitsprmt (
+CREATE TABLE IF NOT EXISTS symmetriccrossunitsprmt (
     ID INT UNSIGNED AUTO_INCREMENT,
     `width` INT UNSIGNED NOT NULL COMMENT '宽度',
     `length` INT UNSIGNED NOT NULL COMMENT '长度',
@@ -132,7 +132,7 @@ CREATE TABLE symmetriccrossunitsprmt (
     FOREIGN KEY (GUP_ID) REFERENCES GenericUnitsPrmt(ID)
 ) COMMENT '对称十字形单元结构特征参数表';
 
-CREATE TABLE squareringunitsprmt (
+CREATE TABLE IF NOT EXISTS squareringunitsprmt (
     ID INT UNSIGNED AUTO_INCREMENT,
     inner_length INT UNSIGNED NOT NULL COMMENT '内径边长',
     outer_length INT UNSIGNED NOT NULL COMMENT '外径边长',
@@ -145,7 +145,7 @@ CREATE TABLE squareringunitsprmt (
 -- -----------------------------------------------------------------------------------------------------
 -- 各具体形状单元结构频率响应参数表建表（近红外（高频）：1000 ~ 2500nm）
 
-CREATE TABLE CuboidUnitsFreqResp_NIR (
+CREATE TABLE IF NOT EXISTS CuboidUnitsFreqResp_NIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -156,7 +156,7 @@ CREATE TABLE CuboidUnitsFreqResp_NIR (
     FOREIGN KEY (UP_ID) REFERENCES CuboidUnitsPrmt(ID)
 ) COMMENT '矩形截面方体单元结构频率响应参数表(近红外: 1000 ~ 2500nm)';
 
-CREATE TABLE SquareCuboidUnitsFreqResp_NIR (
+CREATE TABLE IF NOT EXISTS SquareCuboidUnitsFreqResp_NIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -167,7 +167,7 @@ CREATE TABLE SquareCuboidUnitsFreqResp_NIR (
     FOREIGN KEY (UP_ID) REFERENCES SquareCuboidUnitsPrmt(ID)
 ) COMMENT '正方形截面方体单元结构频率响应参数表(近红外: 1000 ~ 2500nm)';
 
-CREATE TABLE CylinderUnitsFreqResp_NIR (
+CREATE TABLE IF NOT EXISTS CylinderUnitsFreqResp_NIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -178,7 +178,7 @@ CREATE TABLE CylinderUnitsFreqResp_NIR (
     FOREIGN KEY (UP_ID) REFERENCES CylinderUnitsPrmt(ID)
 ) COMMENT '圆柱体单元结构频率响应参数表(近红外: 1000 ~ 2500nm)';
 
-CREATE TABLE CrossUnitsFreqResp_NIR (
+CREATE TABLE IF NOT EXISTS CrossUnitsFreqResp_NIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -189,7 +189,7 @@ CREATE TABLE CrossUnitsFreqResp_NIR (
     FOREIGN KEY (UP_ID) REFERENCES CrossUnitsPrmt(ID)
 ) COMMENT '十字形单元结构频率响应参数表(近红外: 1000 ~ 2500nm)';
 
-CREATE TABLE squareholeUnitsFreqResp_NIR (
+CREATE TABLE IF NOT EXISTS squareholeUnitsFreqResp_NIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -200,7 +200,7 @@ CREATE TABLE squareholeUnitsFreqResp_NIR (
     FOREIGN KEY (UP_ID) REFERENCES squareholeunitsprmt(ID)
 ) COMMENT '方形孔洞单元结构频率响应参数表(近红外: 1000 ~ 2500nm)';
 
-CREATE TABLE symmetriccrossUnitsFreqResp_NIR (
+CREATE TABLE IF NOT EXISTS symmetriccrossUnitsFreqResp_NIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -211,7 +211,7 @@ CREATE TABLE symmetriccrossUnitsFreqResp_NIR (
     FOREIGN KEY (UP_ID) REFERENCES symmetriccrossunitsprmt(ID)
 ) COMMENT '对称十字形单元结构频率响应参数表(近红外: 1000 ~ 2500nm)';
 
-CREATE TABLE squareringUnitsFreqResp_NIR (
+CREATE TABLE IF NOT EXISTS squareringUnitsFreqResp_NIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -226,7 +226,7 @@ CREATE TABLE squareringUnitsFreqResp_NIR (
 -- -----------------------------------------------------------------------------------------------------
 -- 各具体形状单元结构频率响应参数表建表（中红外（中频）：2500 ~ 5000nm）
 
-CREATE TABLE CuboidUnitsFreqResp_MIR (
+CREATE TABLE IF NOT EXISTS CuboidUnitsFreqResp_MIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -237,7 +237,7 @@ CREATE TABLE CuboidUnitsFreqResp_MIR (
     FOREIGN KEY (UP_ID) REFERENCES CuboidUnitsPrmt(ID)
 ) COMMENT '矩形截面方体单元结构频率响应参数表(中红外: 2500 ~ 5000nm)';
 
-CREATE TABLE SquareCuboidUnitsFreqResp_MIR (
+CREATE TABLE IF NOT EXISTS SquareCuboidUnitsFreqResp_MIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -248,7 +248,7 @@ CREATE TABLE SquareCuboidUnitsFreqResp_MIR (
     FOREIGN KEY (UP_ID) REFERENCES SquareCuboidUnitsPrmt(ID)
 ) COMMENT '正方形截面方体单元结构频率响应参数表(中红外: 2500 ~ 5000nm)';
 
-CREATE TABLE CylinderUnitsFreqResp_MIR (
+CREATE TABLE IF NOT EXISTS CylinderUnitsFreqResp_MIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -259,7 +259,7 @@ CREATE TABLE CylinderUnitsFreqResp_MIR (
     FOREIGN KEY (UP_ID) REFERENCES CylinderUnitsPrmt(ID)
 ) COMMENT '圆柱体单元结构频率响应参数表(中红外: 2500 ~ 5000nm)';
 
-CREATE TABLE CrossUnitsFreqResp_MIR (
+CREATE TABLE IF NOT EXISTS CrossUnitsFreqResp_MIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -270,7 +270,7 @@ CREATE TABLE CrossUnitsFreqResp_MIR (
     FOREIGN KEY (UP_ID) REFERENCES CrossUnitsPrmt(ID)
 ) COMMENT '十字形单元结构频率响应参数表(中红外: 2500 ~ 5000nm)';
 
-CREATE TABLE squareholeUnitsFreqResp_MIR (
+CREATE TABLE IF NOT EXISTS squareholeUnitsFreqResp_MIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -281,7 +281,7 @@ CREATE TABLE squareholeUnitsFreqResp_MIR (
     FOREIGN KEY (UP_ID) REFERENCES squareholeunitsprmt(ID)
 ) COMMENT '方形孔洞单元结构频率响应参数表(中红外: 2500 ~ 5000nm)';
 
-CREATE TABLE symmetriccrossUnitsFreqResp_MIR (
+CREATE TABLE IF NOT EXISTS symmetriccrossUnitsFreqResp_MIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -292,7 +292,7 @@ CREATE TABLE symmetriccrossUnitsFreqResp_MIR (
     FOREIGN KEY (UP_ID) REFERENCES symmetriccrossunitsprmt(ID)
 ) COMMENT '对称十字形单元结构频率响应参数表(中红外: 2500 ~ 5000nm)';
 
-CREATE TABLE squareringUnitsFreqResp_MIR (
+CREATE TABLE IF NOT EXISTS squareringUnitsFreqResp_MIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -307,7 +307,7 @@ CREATE TABLE squareringUnitsFreqResp_MIR (
 -- -----------------------------------------------------------------------------------------------------
 -- 各具体形状单元结构频率响应参数表建表（远红外（低频）：5000 ~ 14000nm）
 
-CREATE TABLE CuboidUnitsFreqResp_FIR (
+CREATE TABLE IF NOT EXISTS CuboidUnitsFreqResp_FIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -318,7 +318,7 @@ CREATE TABLE CuboidUnitsFreqResp_FIR (
     FOREIGN KEY (UP_ID) REFERENCES CuboidUnitsPrmt(ID)
 ) COMMENT '矩形截面方体单元结构频率响应参数表(远红外: 5000 ~ 14000nm)';
 
-CREATE TABLE SquareCuboidUnitsFreqResp_FIR (
+CREATE TABLE IF NOT EXISTS SquareCuboidUnitsFreqResp_FIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -329,7 +329,7 @@ CREATE TABLE SquareCuboidUnitsFreqResp_FIR (
     FOREIGN KEY (UP_ID) REFERENCES SquareCuboidUnitsPrmt(ID)
 ) COMMENT '正方形截面方体单元结构频率响应参数表(远红外: 5000 ~ 14000nm)';
 
-CREATE TABLE CylinderUnitsFreqResp_FIR (
+CREATE TABLE IF NOT EXISTS CylinderUnitsFreqResp_FIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -340,7 +340,7 @@ CREATE TABLE CylinderUnitsFreqResp_FIR (
     FOREIGN KEY (UP_ID) REFERENCES CylinderUnitsPrmt(ID)
 ) COMMENT '圆柱体单元结构频率响应参数表(远红外: 5000 ~ 14000nm)';
 
-CREATE TABLE CrossUnitsFreqResp_FIR (
+CREATE TABLE IF NOT EXISTS CrossUnitsFreqResp_FIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -351,7 +351,7 @@ CREATE TABLE CrossUnitsFreqResp_FIR (
     FOREIGN KEY (UP_ID) REFERENCES CrossUnitsPrmt(ID)
 ) COMMENT '十字形单元结构频率响应参数表(远红外: 5000 ~ 14000nm)';
 
-CREATE TABLE squareholeUnitsFreqResp_FIR (
+CREATE TABLE IF NOT EXISTS squareholeUnitsFreqResp_FIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -362,7 +362,7 @@ CREATE TABLE squareholeUnitsFreqResp_FIR (
     FOREIGN KEY (UP_ID) REFERENCES squareholeunitsprmt(ID)
 ) COMMENT '方形孔洞单元结构频率响应参数表(远红外: 5000 ~ 14000nm)';
 
-CREATE TABLE symmetriccrossUnitsFreqResp_FIR (
+CREATE TABLE IF NOT EXISTS symmetriccrossUnitsFreqResp_FIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -373,7 +373,7 @@ CREATE TABLE symmetriccrossUnitsFreqResp_FIR (
     FOREIGN KEY (UP_ID) REFERENCES symmetriccrossunitsprmt(ID)
 ) COMMENT '对称十字形单元结构频率响应参数表(远红外: 5000 ~ 14000nm)';
 
-CREATE TABLE squareringUnitsFreqResp_FIR (
+CREATE TABLE IF NOT EXISTS squareringUnitsFreqResp_FIR (
     ID BIGINT UNSIGNED AUTO_INCREMENT,
     Frequency DOUBLE UNSIGNED NOT NULL COMMENT '频率',
     Magnitude DOUBLE NULL COMMENT '幅值',
@@ -388,7 +388,7 @@ CREATE TABLE squareringUnitsFreqResp_FIR (
 -- -----------------------------------------------------------------------------------------------------
 -- 操作定义表建表
 
-CREATE TABLE OptionDef (
+CREATE TABLE IF NOT EXISTS OptionDef (
     ID SMALLINT UNSIGNED AUTO_INCREMENT COMMENT '主键',
     `name` VARCHAR(20) NOT NULL COMMENT '操作名称',
     PRIMARY KEY (ID)
@@ -402,7 +402,7 @@ INSERT INTO OptionDef (`name`) VALUES
 -- -----------------------------------------------------------------------------------------------------
 -- 用户表建表
 
-CREATE TABLE users (
+CREATE TABLE IF NOT EXISTS users (
     ID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '主键',
     `name` VARCHAR(20) NOT NULL COMMENT '用户名',
     first_join TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '首次加入时间',
@@ -414,7 +414,7 @@ CREATE TABLE users (
 -- -----------------------------------------------------------------------------------------------------
 -- 日志表建表
 
-CREATE TABLE `log` (
+CREATE TABLE IF NOT EXISTS `log` (
     ID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '主键',
     `time` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '时间',
     `user_id` INT UNSIGNED NOT NULL COMMENT '用户ID',
