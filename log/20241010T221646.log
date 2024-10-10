@@ -1,0 +1,28 @@
+[matlab][INFO] Loading configuration files and user libraries...
+[matlab][INFO] Loading import.properties...
+                            DataSrc: 'Metasurface_demo_db'
+                               User: 'root'
+                                Pwd: '123456'
+    minimum_innodb_buffer_pool_size: '1073741824'
+                       local_infile: '1'
+                              N_MIR: '119.9170'
+                              M_FIR: '59.9585'
+                    ignoreThickness: '1'
+                   defaultThickness: '500'
+                       ignoreETheta: '0'
+                      defaultETheta: '90'
+                           language: 'zh_CN'
+
+[matlab][INFO] Connecting to the database...
+[matlab][INFO] Database connection successful
+[matlab][INFO] Reading SParameter information from the database...
+{在当前文件夹或 MATLAB 路径中未找到 'cst2mysql_v2'，但它位于:
+ C:\Users\pc\Desktop\cst2mysql-matlab\dev
+
+<a href = "matlab:matlab.internal.language.commandline.executeCode('cd ''C:\Users\pc\Desktop\cst2mysql-matlab\dev''')">更改 MATLAB 当前文件夹</a> 或 <a href = "matlab:matlab.internal.language.commandline.executeCode('addpath ''C:\Users\pc\Desktop\cst2mysql-matlab\dev''')">将其文件夹添加到 MATLAB 路径</a>。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)cst2mysql_v2(''pathBrowse_Callback'',hObject,eventdata,guidata(hObject))')" style="font-weight:bold">matlab.graphics.internal.figfile.FigFile/read>@(hObject,eventdata)cst2mysql_v2('pathBrowse_Callback',hObject,eventdata,guidata(hObject))</a>
+} 
+计算 UIControl Callback 时出错。
+
+savepath

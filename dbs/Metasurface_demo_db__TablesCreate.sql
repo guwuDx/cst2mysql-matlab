@@ -27,6 +27,24 @@ INSERT INTO MaterialDef (`name`, `comment`) VALUES
 
 -- -----------------------------------------------------------------------------------------------------
 -- 定义形状信息
+CREATE TABLE IF NOT EXISTS ShapeDef (
+    ID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '主键',
+    `name` VARCHAR(40) NOT NULL COMMENT '形状名称',
+    `zn` VARCHAR(80) NOT NULL COMMENT '中文名',
+    `paramNum` TINYINT UNSIGNED NOT NULL COMMENT '参数个数',
+    `colnames` VARCHAR(300) NOT NULL COMMENT '参数名称(列名)',
+    `table` VARCHAR(100) NOT NULL COMMENT '表名'
+);
+
+INSERT INTO ShapeDef (`name`, `zn`, `paramNum`, `colnames`, `table`) VALUES
+    ('GeneralParamsName', '通用参数', 8, '["height","period","thickness","thickness"]', '["genericunitsprmt"]'),
+    ('Cuboid', '矩形截面柱体', 6, '["length","width"]', '["cuboidunitsprmt","cuboidunitsfreqresp"]'),
+    ('SquareCuboid', '正方截面柱体', 5, '["side_length"]', '["squarecuboidunitsprmt","squarecuboidunitsfreqresp"]'),
+    ('Cylinder', '圆柱体', 5, '["radius"]', '["cylinderunitsprmt","cylinderunitsfreqresp"]'),
+    ('Cross', '一般十字截面柱体', 8, '["long_length","long_width","short_length","short_width"]', '["crossunitsprmt","crossunitsfreqresp"]'),
+    ('SquareHole', '方形孔洞', 5, '["side_length"]', '["squareholeunitsprmt","squareholeunitsfreqresp"]'),
+    ('SymmetricCross', '对称十字型', 6, '["width","length"]', '["symmetriccrossunitsprmt","symmetriccrossunitsfreqresp"]'),
+    ('SquareRing', '方形环', 6, '["inner_length","outer_length"]', '["squareringunitsprmt","squareringunitsfreqresp"]');
 
 
 -- -----------------------------------------------------------------------------------------------------
