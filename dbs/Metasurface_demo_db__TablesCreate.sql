@@ -27,6 +27,7 @@ INSERT INTO MaterialDef (`name`, `comment`) VALUES
 
 -- -----------------------------------------------------------------------------------------------------
 -- 定义形状信息
+
 CREATE TABLE IF NOT EXISTS ShapeDef (
     ID INT UNSIGNED AUTO_INCREMENT PRIMARY KEY COMMENT '主键',
     `name` VARCHAR(40) NOT NULL COMMENT '形状名称',
