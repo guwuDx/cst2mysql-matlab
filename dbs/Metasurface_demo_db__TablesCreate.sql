@@ -22,7 +22,7 @@ INSERT INTO MaterialDef (`name`, `comment`) VALUES
     ('Silicon', 'Si 硅'),
     ('Germanium', 'Ge 锗'),
     ('Titanium dioxide', 'TiO2 二氧化钛'),
-    ('Silicon dioxide', 'SiO2');
+    ('Silicon dioxide', 'SiO2 二氧化硅');
 
 
 -- -----------------------------------------------------------------------------------------------------
