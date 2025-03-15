@@ -18,11 +18,11 @@ CREATE TABLE IF NOT EXISTS MaterialDef (
     `comment` VARCHAR(100) NULL COMMENT '材料描述'
 ) COMMENT '材料定义表';
 
-INSERT INTO MaterialDef (`name`, `comment`) VALUES
-    ('Silicon', 'Si 硅'),
-    ('Germanium', 'Ge 锗'),
-    ('Titanium dioxide', 'TiO2 二氧化钛'),
-    ('Silicon dioxide', 'SiO2 二氧化硅');
+INSERT IGNORE INTO MaterialDef (`id`, `name`, `comment`) VALUES
+    (1, 'Silicon', 'Si 硅'),
+    (2, 'Germanium', 'Ge 锗'),
+    (3, 'Titanium dioxide', 'TiO2 二氧化钛'),
+    (4, 'Silicon dioxide', 'SiO2 二氧化硅');
 
 
 -- -----------------------------------------------------------------------------------------------------
@@ -37,15 +37,15 @@ CREATE TABLE IF NOT EXISTS ShapeDef (
     `table` VARCHAR(100) NOT NULL COMMENT '表名'
 );
 
-INSERT INTO ShapeDef (`name`, `zn`, `paramNum`, `colnames`, `table`) VALUES
-    ('GeneralParamsName', '通用参数', 8, '["height","period","thickness","thickness"]', '["genericunitsprmt"]'),
-    ('Cuboid', '矩形截面柱体', 6, '["length","width"]', '["cuboidunitsprmt","cuboidunitsfreqresp"]'),
-    ('SquareCuboid', '正方截面柱体', 5, '["side_length"]', '["squarecuboidunitsprmt","squarecuboidunitsfreqresp"]'),
-    ('Cylinder', '圆柱体', 5, '["radius"]', '["cylinderunitsprmt","cylinderunitsfreqresp"]'),
-    ('Cross', '一般十字截面柱体', 8, '["long_length","long_width","short_length","short_width"]', '["crossunitsprmt","crossunitsfreqresp"]'),
-    ('SquareHole', '方形孔洞', 5, '["side_length"]', '["squareholeunitsprmt","squareholeunitsfreqresp"]'),
-    ('SymmetricCross', '对称十字型', 6, '["width","length"]', '["symmetriccrossunitsprmt","symmetriccrossunitsfreqresp"]'),
-    ('SquareRing', '方形环', 6, '["inner_length","outer_length"]', '["squareringunitsprmt","squareringunitsfreqresp"]');
+INSERT IGNORE INTO ShapeDef (`id`, `name`, `zn`, `paramNum`, `colnames`, `table`) VALUES
+    (1, 'GeneralParamsName', '通用参数', 8, '["height","period","thickness","thickness"]', '["genericunitsprmt"]'),
+    (2, 'Cuboid', '矩形截面柱体', 6, '["length","width"]', '["cuboidunitsprmt","cuboidunitsfreqresp"]'),
+    (3, 'SquareCuboid', '正方截面柱体', 5, '["side_length"]', '["squarecuboidunitsprmt","squarecuboidunitsfreqresp"]'),
+    (4, 'Cylinder', '圆柱体', 5, '["radius"]', '["cylinderunitsprmt","cylinderunitsfreqresp"]'),
+    (5, 'Cross', '一般十字截面柱体', 8, '["long_length","long_width","short_length","short_width"]', '["crossunitsprmt","crossunitsfreqresp"]'),
+    (6, 'SquareHole', '方形孔洞', 5, '["side_length"]', '["squareholeunitsprmt","squareholeunitsfreqresp"]'),
+    (7, 'SymmetricCross', '对称十字型', 6, '["width","length"]', '["symmetriccrossunitsprmt","symmetriccrossunitsfreqresp"]'),
+    (8, 'SquareRing', '方形环', 6, '["inner_length","outer_length"]', '["squareringunitsprmt","squareringunitsfreqresp"]');
 
 
 -- -----------------------------------------------------------------------------------------------------
@@ -57,23 +57,23 @@ CREATE TABLE IF NOT EXISTS SParameter (
     `comment` VARCHAR(100) NULL COMMENT 'S参数描述'
 ) COMMENT 'S参数表';
 
-INSERT INTO SParameter (`S_Param`, `comment`) VALUES
-    ('Zmin(2),Zmax(2)', 'cmt'),
-    ('Zmax(1),Zmin(1)', 'cmt'),
-    ('Zmin(1),Zmax(2)', 'cmt'),
-    ('Zmax(2),Zmax(2)', 'cmt'),
-    ('Zmax(1),Zmax(2)', 'cmt'),
-    ('Zmin(2),Zmax(1)', 'cmt'),
-    ('Zmin(1),Zmax(1)', 'cmt'),
-    ('Zmax(2),Zmax(1)', 'cmt'),
-    ('Zmax(1),Zmin(2)', 'cmt'),
-    ('Zmax(2),Zmin(1)', 'cmt'),
-    ('Zmax(2),Zmin(2)', 'cmt'),
-    ('Zmax(1),Zmax(1)', 'cmt'),
-    ('Zmin(1),Zmin(1)', 'cmt'),
-    ('Zmin(1),Zmin(2)', 'cmt'),
-    ('Zmin(2),Zmin(1)', 'cmt'),
-    ('Zmin(2),Zmin(2)', 'cmt');
+INSERT INTO SParameter (`id`, `S_Param`, `comment`) VALUES
+    (1, 'Zmin(2),Zmax(2)', 'cmt'),
+    (2, 'Zmax(1),Zmin(1)', 'cmt'),
+    (3, 'Zmin(1),Zmax(2)', 'cmt'),
+    (4, 'Zmax(2),Zmax(2)', 'cmt'),
+    (5, 'Zmax(1),Zmax(2)', 'cmt'),
+    (6, 'Zmin(2),Zmax(1)', 'cmt'),
+    (7, 'Zmin(1),Zmax(1)', 'cmt'),
+    (8, 'Zmax(2),Zmax(1)', 'cmt'),
+    (9, 'Zmax(1),Zmin(2)', 'cmt'),
+    (10, 'Zmax(2),Zmin(1)', 'cmt'),
+    (11, 'Zmax(2),Zmin(2)', 'cmt'),
+    (12, 'Zmax(1),Zmax(1)', 'cmt'),
+    (13, 'Zmin(1),Zmin(1)', 'cmt'),
+    (14, 'Zmin(1),Zmin(2)', 'cmt'),
+    (15, 'Zmin(2),Zmin(1)', 'cmt'),
+    (16, 'Zmin(2),Zmin(2)', 'cmt');
 
 
 -- -----------------------------------------------------------------------------------------------------
@@ -87,7 +87,8 @@ CREATE TABLE IF NOT EXISTS GenericUnitsPrmt (
     `height` INT UNSIGNED NOT NULL COMMENT '单元结构高度',
     `period` INT UNSIGNED NOT NULL COMMENT '单元结构排布周期',
     `thickness` INT UNSIGNED NOT NULL COMMENT '单元结构基底厚度',
-    `E_theta` DOUBLE NOT NULL COMMENT '入射角',
+    `E_theta` DOUBLE NOT NULL COMMENT '入射角 theta',
+    `E_phi` DOUBLE NOT NULL COMMENT '入射角 phi',
     `hash` CHAR(32) NULL COMMENT '基本参数哈希值',
     FOREIGN KEY (`baseMaterial_id`) REFERENCES MaterialDef(ID),
     FOREIGN KEY (`cellMaterial_id`) REFERENCES MaterialDef(ID),
